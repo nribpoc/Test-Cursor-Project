@@ -1,0 +1,1497 @@
+2025-03-04 10:53:36,525 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 10:53:41,505 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 10:53:43,544 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 10:53:43,544 [1] WARN  Test.Form1 - AWSアカウント一覧が選択されていません。
+2025-03-04 10:53:46,373 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 10:53:53,854 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 10:53:53,856 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 10:53:56,150 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 10:53:58,079 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 10:54:00,359 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 10:54:00,359 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 10:54:02,576 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 10:54:04,854 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 10:54:08,317 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 10:54:08,317 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 10:54:11,172 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 10:54:12,963 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 10:54:20,468 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 10:54:20,468 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 10:54:25,216 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 10:54:27,115 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 10:54:41,260 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 10:54:41,260 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 10:54:46,372 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 10:54:52,328 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 10:54:52,329 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 10:54:53,728 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 10:54:53,732 [1] INFO  Test.Form1 - 処理結果をファイルに出力します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.txt
+2025-03-04 10:54:58,903 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 11:15:29,593 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 11:15:35,408 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 11:15:35,409 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 11:15:36,429 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 11:15:39,661 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 11:15:39,661 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 11:15:43,225 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 11:15:46,191 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 11:15:46,191 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 11:15:48,827 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 11:15:51,484 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 11:15:51,484 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 11:15:52,508 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 11:15:59,504 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 11:15:59,505 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 11:16:03,872 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 11:16:03,872 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 11:16:05,302 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 11:16:05,302 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 11:16:05,409 [1] ERROR Test.ExcelUtility - Excelファイルの読み込みでエラーが発生しました。ファイル：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+System.IO.IOException: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access, FileShare share)
+   at DocumentFormat.OpenXml.Features.FilePackageFeature.CreateStream(String path, PackageOpenMode openMode)
+   at DocumentFormat.OpenXml.Features.FilePackageFeature..ctor(String path, PackageOpenMode mode)
+   at DocumentFormat.OpenXml.Builder.OpenXmlPackageBuilderExtensions.Open[TPackage](IPackageFactory`1 builder, String file, PackageOpenMode mode)
+   at DocumentFormat.OpenXml.Builder.OpenXmlPackageBuilderExtensions.Open[TPackage](IPackageFactory`1 builder, String file, Boolean isEditing)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at Test.ExcelUtility.ExcelToDataSet(String filePath, String sheetName, String headerColumnName) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 209
+2025-03-04 11:16:06,853 [1] ERROR Test.Form1 - Download処理でエラーが発生しました。
+System.Exception: 读取Excel文件时发生错误: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx' because it is being used by another process.
+   at Test.ExcelUtility.ExcelToDataSet(String filePath, String sheetName, String headerColumnName) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 321
+   at Test.Form1.btnDateRange_Click(Object sender, EventArgs e) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\Form1.cs:line 228
+2025-03-04 11:16:26,987 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 11:16:26,987 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 11:16:27,006 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 11:16:27,006 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 11:16:27,491 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 11:16:27,559 [1] INFO  Test.Form1 - 処理結果をファイルに出力します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.txt
+2025-03-04 11:16:35,483 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 11:25:45,175 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 11:25:49,499 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 11:25:49,500 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 11:25:50,298 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 11:25:52,932 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 11:25:52,933 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 11:25:53,787 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 11:25:58,024 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 11:25:58,024 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 11:25:59,002 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 11:26:01,426 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 11:26:01,426 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 11:26:02,705 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 11:26:05,004 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 11:26:05,005 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 11:26:06,602 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 11:26:06,603 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 11:26:07,094 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 11:26:07,094 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 11:26:07,097 [1] ERROR Test.ExcelUtility - Excelファイルの読み込みでエラーが発生しました。ファイル：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+System.IO.IOException: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access, FileShare share)
+   at DocumentFormat.OpenXml.Features.FilePackageFeature.CreateStream(String path, PackageOpenMode openMode)
+   at DocumentFormat.OpenXml.Features.FilePackageFeature..ctor(String path, PackageOpenMode mode)
+   at DocumentFormat.OpenXml.Builder.OpenXmlPackageBuilderExtensions.Open[TPackage](IPackageFactory`1 builder, String file, PackageOpenMode mode)
+   at DocumentFormat.OpenXml.Builder.OpenXmlPackageBuilderExtensions.Open[TPackage](IPackageFactory`1 builder, String file, Boolean isEditing)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at Test.ExcelUtility.ExcelToDataSet(String filePath, String sheetName, String headerColumnName) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 209
+2025-03-04 11:26:07,171 [1] ERROR Test.Form1 - Download処理でエラーが発生しました。
+System.Exception: 读取Excel文件时发生错误: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx' because it is being used by another process.
+   at Test.ExcelUtility.ExcelToDataSet(String filePath, String sheetName, String headerColumnName) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 313
+   at Test.Form1.btnDateRange_Click(Object sender, EventArgs e) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\Form1.cs:line 228
+2025-03-04 11:26:20,262 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 11:26:20,262 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 11:26:20,286 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 11:26:20,286 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 11:26:20,555 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：2
+2025-03-04 11:26:20,567 [1] INFO  Test.Form1 - 処理結果をファイルに出力します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.txt
+2025-03-04 11:26:22,061 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 11:26:42,502 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 11:26:42,502 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 11:26:42,524 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 11:26:42,524 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 11:26:42,619 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：2
+2025-03-04 11:26:42,628 [1] INFO  Test.Form1 - 処理結果をファイルに出力します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.txt
+2025-03-04 11:26:43,660 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 11:28:57,975 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 11:29:01,099 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 11:29:01,101 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 11:29:01,748 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 11:29:04,727 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 11:29:04,727 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 11:29:06,045 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 11:29:07,956 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 11:29:07,956 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 11:29:08,854 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 11:29:11,397 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 11:29:11,398 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 11:29:12,534 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 11:29:14,223 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 11:29:14,223 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 11:29:15,601 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 11:29:15,601 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 11:29:15,963 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 11:29:15,964 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 11:29:16,136 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：0
+2025-03-04 11:29:16,144 [1] INFO  Test.Form1 - 処理結果をファイルに出力します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.txt
+2025-03-04 11:29:20,980 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 11:40:41,454 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 11:40:45,381 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 11:40:45,382 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 11:40:46,787 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 11:40:49,182 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 11:40:49,183 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 11:40:49,817 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 11:40:52,613 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 11:40:52,613 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 11:40:53,499 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 11:40:56,749 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 11:40:56,749 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 11:40:57,641 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 11:40:59,756 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 11:40:59,756 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 11:41:00,519 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 11:41:02,335 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 11:41:02,336 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 11:41:03,319 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 11:41:03,319 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 11:41:03,714 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 11:41:03,714 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 11:41:03,718 [1] ERROR Test.ExcelUtility - Excelファイルの読み込みでエラーが発生しました。ファイル：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+System.IO.IOException: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access, FileShare share)
+   at DocumentFormat.OpenXml.Features.FilePackageFeature.CreateStream(String path, PackageOpenMode openMode)
+   at DocumentFormat.OpenXml.Features.FilePackageFeature..ctor(String path, PackageOpenMode mode)
+   at DocumentFormat.OpenXml.Builder.OpenXmlPackageBuilderExtensions.Open[TPackage](IPackageFactory`1 builder, String file, PackageOpenMode mode)
+   at DocumentFormat.OpenXml.Builder.OpenXmlPackageBuilderExtensions.Open[TPackage](IPackageFactory`1 builder, String file, Boolean isEditing)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at Test.ExcelUtility.ExcelToDataSet(String filePath, String sheetName, String headerColumnName) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 209
+2025-03-04 11:41:03,773 [1] ERROR Test.Form1 - Download処理でエラーが発生しました。
+System.Exception: 读取Excel文件时发生错误: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx' because it is being used by another process.
+   at Test.ExcelUtility.ExcelToDataSet(String filePath, String sheetName, String headerColumnName) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 300
+   at Test.Form1.btnDateRange_Click(Object sender, EventArgs e) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\Form1.cs:line 228
+2025-03-04 11:41:11,999 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 11:41:11,999 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 11:41:12,026 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 11:41:12,026 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 11:41:12,249 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 11:41:12,268 [1] INFO  Test.Form1 - 処理結果をファイルに出力します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.txt
+2025-03-04 11:41:17,389 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 11:45:41,576 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 11:45:45,332 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 11:45:45,335 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 11:45:46,293 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 11:45:48,763 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 11:45:48,763 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 11:45:49,709 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 11:45:52,023 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 11:45:52,023 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 11:45:53,034 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 11:45:54,907 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 11:45:54,907 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 11:45:55,794 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 11:45:58,622 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 11:45:58,622 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 11:46:00,249 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 11:46:00,249 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 11:46:00,605 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 11:46:00,605 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 11:46:00,815 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 11:46:00,826 [1] INFO  Test.Form1 - 処理結果をファイルに出力します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.txt
+2025-03-04 11:46:02,565 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 11:52:46,650 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 11:52:53,251 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 11:52:53,253 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 11:52:53,966 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 11:52:56,997 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 11:52:56,997 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 11:52:57,780 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 11:53:04,609 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 11:53:04,610 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 11:53:05,729 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 11:53:09,100 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 11:53:09,100 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 11:53:10,056 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 11:53:12,804 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 11:53:12,805 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 11:53:13,694 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 11:53:13,694 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 11:53:14,066 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 11:53:14,066 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 11:53:14,069 [1] ERROR Test.ExcelUtility - Excelファイルの読み込みでエラーが発生しました。ファイル：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+System.IO.IOException: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access, FileShare share)
+   at DocumentFormat.OpenXml.Features.FilePackageFeature.CreateStream(String path, PackageOpenMode openMode)
+   at DocumentFormat.OpenXml.Features.FilePackageFeature..ctor(String path, PackageOpenMode mode)
+   at DocumentFormat.OpenXml.Builder.OpenXmlPackageBuilderExtensions.Open[TPackage](IPackageFactory`1 builder, String file, PackageOpenMode mode)
+   at DocumentFormat.OpenXml.Builder.OpenXmlPackageBuilderExtensions.Open[TPackage](IPackageFactory`1 builder, String file, Boolean isEditing)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at Test.ExcelUtility.ExcelToDataSet(String filePath, String sheetName, String headerColumnName) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 209
+2025-03-04 11:53:14,127 [1] ERROR Test.Form1 - Download処理でエラーが発生しました。
+System.Exception: 读取Excel文件时发生错误: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx' because it is being used by another process.
+   at Test.ExcelUtility.ExcelToDataSet(String filePath, String sheetName, String headerColumnName) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 341
+   at Test.Form1.btnDateRange_Click(Object sender, EventArgs e) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\Form1.cs:line 228
+2025-03-04 11:53:19,963 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 11:53:19,963 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 11:53:19,984 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 11:53:19,985 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 11:53:20,148 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 11:53:20,159 [1] INFO  Test.Form1 - 処理結果をファイルに出力します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.txt
+2025-03-04 11:53:21,675 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 11:56:26,543 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 11:56:30,215 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 11:56:30,217 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 11:56:31,233 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 11:56:37,036 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 11:56:37,036 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 11:56:38,852 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 11:56:40,434 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 11:56:40,434 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 11:56:41,230 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 11:56:43,215 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 11:56:43,216 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 11:56:44,252 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 11:56:46,973 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 11:56:46,973 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 11:56:48,044 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 11:56:48,044 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 11:56:48,420 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 11:56:48,420 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 11:56:48,610 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 11:56:48,623 [1] INFO  Test.Form1 - 処理結果をファイルに出力します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.txt
+2025-03-04 11:56:49,710 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 12:00:57,126 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 12:01:00,690 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 12:01:00,691 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 12:01:01,389 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 12:01:04,776 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 12:01:04,776 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 12:01:05,840 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 12:01:09,247 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 12:01:09,247 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 12:01:10,221 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 12:01:12,565 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 12:01:12,565 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 12:01:13,522 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 12:01:15,460 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 12:01:15,460 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 12:01:16,479 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 12:01:16,480 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 12:01:16,840 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 12:01:16,840 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 12:01:16,844 [1] ERROR Test.ExcelUtility - Excelファイルの読み込みでエラーが発生しました。ファイル：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+System.IO.IOException: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access, FileShare share)
+   at DocumentFormat.OpenXml.Features.FilePackageFeature.CreateStream(String path, PackageOpenMode openMode)
+   at DocumentFormat.OpenXml.Features.FilePackageFeature..ctor(String path, PackageOpenMode mode)
+   at DocumentFormat.OpenXml.Builder.OpenXmlPackageBuilderExtensions.Open[TPackage](IPackageFactory`1 builder, String file, PackageOpenMode mode)
+   at DocumentFormat.OpenXml.Builder.OpenXmlPackageBuilderExtensions.Open[TPackage](IPackageFactory`1 builder, String file, Boolean isEditing)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at Test.ExcelUtility.ExcelToDataSet(String filePath, String sheetName, String headerColumnName) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 233
+2025-03-04 12:01:16,891 [1] ERROR Test.Form1 - Download処理でエラーが発生しました。
+System.Exception: 读取Excel文件时发生错误: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx' because it is being used by another process.
+   at Test.ExcelUtility.ExcelToDataSet(String filePath, String sheetName, String headerColumnName) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 363
+   at Test.Form1.btnDateRange_Click(Object sender, EventArgs e) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\Form1.cs:line 228
+2025-03-04 12:01:22,357 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 12:01:22,357 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 12:01:22,378 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 12:01:22,379 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 12:01:22,602 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 12:01:22,636 [1] INFO  Test.Form1 - 処理結果をファイルに出力します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.txt
+2025-03-04 12:01:24,340 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 12:17:46,321 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 12:17:50,632 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 12:17:50,634 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 12:17:51,250 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 12:17:53,779 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 12:17:53,779 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 12:17:54,588 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 12:17:57,204 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 12:17:57,204 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 12:17:58,453 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 12:18:00,450 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 12:18:00,450 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 12:18:01,330 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 12:18:03,405 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 12:18:03,406 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 12:18:04,696 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 12:18:04,696 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 12:18:05,086 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 12:18:05,087 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 12:18:05,265 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 12:18:05,265 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 12:18:05,267 [1] ERROR Test.ExcelUtility - Excelファイル読み込みでエラーが発生しました。ファイル：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+System.IO.IOException: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access, FileShare share)
+   at DocumentFormat.OpenXml.Features.FilePackageFeature.CreateStream(String path, PackageOpenMode openMode)
+   at DocumentFormat.OpenXml.Features.FilePackageFeature..ctor(String path, PackageOpenMode mode)
+   at DocumentFormat.OpenXml.Builder.OpenXmlPackageBuilderExtensions.Open[TPackage](IPackageFactory`1 builder, String file, PackageOpenMode mode)
+   at DocumentFormat.OpenXml.Builder.OpenXmlPackageBuilderExtensions.Open[TPackage](IPackageFactory`1 builder, String file, Boolean isEditing)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at Test.ExcelUtility.ExcelToDataTable(String filePath, Boolean isFirstRowAsHeader, String sheetName, Int32 startRowIndex) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 29
+2025-03-04 12:18:05,364 [1] ERROR Test.Form1 - Download処理でエラーが発生しました。
+System.Exception: 读取Excel文件时发生错误: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx' because it is being used by another process.
+   at Test.ExcelUtility.ExcelToDataTable(String filePath, Boolean isFirstRowAsHeader, String sheetName, Int32 startRowIndex) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 115
+   at Test.Form1.btnDateRange_Click(Object sender, EventArgs e) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\Form1.cs:line 239
+2025-03-04 12:18:10,095 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 12:18:10,096 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 12:18:10,113 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 12:18:10,113 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 12:18:10,267 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 12:18:10,267 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 12:18:10,370 [1] ERROR Test.ExcelUtility - Excelファイル読み込みでエラーが発生しました。ファイル：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Test.ExcelUtility.ExcelToDataTable(String filePath, Boolean isFirstRowAsHeader, String sheetName, Int32 startRowIndex) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 50
+2025-03-04 12:18:10,412 [1] ERROR Test.Form1 - Download処理でエラーが発生しました。
+System.Exception: 读取Excel文件时发生错误: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at Test.ExcelUtility.ExcelToDataTable(String filePath, Boolean isFirstRowAsHeader, String sheetName, Int32 startRowIndex) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 115
+   at Test.Form1.btnDateRange_Click(Object sender, EventArgs e) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\Form1.cs:line 239
+2025-03-04 12:18:29,515 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 12:18:29,516 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 12:18:29,531 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 12:18:29,531 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 12:18:29,641 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 12:18:29,641 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 12:18:29,659 [1] ERROR Test.ExcelUtility - Excelファイル読み込みでエラーが発生しました。ファイル：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Test.ExcelUtility.ExcelToDataTable(String filePath, Boolean isFirstRowAsHeader, String sheetName, Int32 startRowIndex) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 50
+2025-03-04 12:18:29,659 [1] ERROR Test.Form1 - Download処理でエラーが発生しました。
+System.Exception: 读取Excel文件时发生错误: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+   at Test.ExcelUtility.ExcelToDataTable(String filePath, Boolean isFirstRowAsHeader, String sheetName, Int32 startRowIndex) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 115
+   at Test.Form1.btnDateRange_Click(Object sender, EventArgs e) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\Form1.cs:line 239
+2025-03-04 12:20:34,347 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 12:20:37,197 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 12:20:37,198 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 12:20:37,950 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 12:20:40,203 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 12:20:40,204 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 12:20:41,010 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 12:20:44,466 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 12:20:44,467 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 12:20:45,830 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 12:20:47,670 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 12:20:47,671 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 12:20:49,023 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 12:20:50,933 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 12:20:50,934 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 12:20:51,859 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 12:20:51,860 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 12:20:52,199 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：5
+2025-03-04 12:20:52,200 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 12:20:52,368 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 12:20:52,368 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 12:20:52,387 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：1
+2025-03-04 12:20:52,405 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：1
+2025-03-04 12:20:52,423 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：2
+2025-03-04 12:20:52,441 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：20
+2025-03-04 12:20:52,456 [1] INFO  Test.Form1 - 処理結果をファイルに出力します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.txt
+2025-03-04 12:20:59,532 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 12:26:05,719 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 12:26:09,777 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 12:26:09,779 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 12:26:10,533 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 12:26:12,317 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 12:26:12,317 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 12:26:12,955 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 12:26:15,889 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 12:26:15,889 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 12:26:16,524 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 12:26:18,854 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 12:26:18,854 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 12:26:19,995 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 12:26:22,268 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 12:26:22,268 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 12:26:23,638 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 12:26:23,638 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 12:26:23,987 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：5
+2025-03-04 12:26:23,987 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 12:26:24,158 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 12:26:24,158 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 12:26:24,177 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：1
+2025-03-04 12:26:24,199 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：1
+2025-03-04 12:26:24,217 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：2
+2025-03-04 12:26:24,245 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：20
+2025-03-04 12:26:24,261 [1] INFO  Test.Form1 - 処理結果をファイルに出力します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.txt
+2025-03-04 12:26:31,004 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 14:02:07,848 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 14:02:12,881 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 14:02:12,882 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 14:02:14,103 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 14:02:16,786 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 14:02:16,786 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 14:02:17,753 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 14:02:20,343 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 14:02:20,343 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 14:02:21,981 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 14:02:24,067 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 14:02:24,067 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 14:02:25,101 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 14:02:27,768 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 14:02:27,768 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 14:02:29,541 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 14:02:29,542 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 14:02:38,638 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 14:02:38,638 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 14:02:39,212 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 14:02:39,212 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 14:02:39,282 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：1
+2025-03-04 14:02:39,317 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：1
+2025-03-04 14:02:39,347 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：2
+2025-03-04 14:02:39,371 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：20
+2025-03-04 14:02:39,389 [1] INFO  Test.Form1 - 処理結果をファイルに出力します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.txt
+2025-03-04 14:02:42,240 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 14:08:52,037 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 14:08:55,671 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 14:08:55,672 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 14:08:56,689 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 14:08:59,059 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 14:08:59,060 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 14:08:59,767 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 14:09:05,343 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 14:09:05,344 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 14:09:06,177 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 14:09:08,329 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 14:09:08,329 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 14:09:09,203 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 14:09:12,051 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 14:09:12,051 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 14:09:13,025 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 14:09:13,025 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 14:09:13,400 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：7
+2025-03-04 14:09:13,400 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 14:09:13,638 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 14:09:13,638 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 14:09:13,639 [1] ERROR Test.ExcelUtility - Excelファイル読み込みでエラーが発生しました。ファイル：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx, シート：パス定義, 開始行：1
+System.IO.IOException: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access, FileShare share)
+   at DocumentFormat.OpenXml.Features.FilePackageFeature.CreateStream(String path, PackageOpenMode openMode)
+   at DocumentFormat.OpenXml.Features.FilePackageFeature..ctor(String path, PackageOpenMode mode)
+   at DocumentFormat.OpenXml.Builder.OpenXmlPackageBuilderExtensions.Open[TPackage](IPackageFactory`1 builder, String file, PackageOpenMode mode)
+   at DocumentFormat.OpenXml.Builder.OpenXmlPackageBuilderExtensions.Open[TPackage](IPackageFactory`1 builder, String file, Boolean isEditing)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at Test.ExcelUtility.ExcelToDataTable(String filePath, Boolean isFirstRowAsHeader, String sheetName, Int32 startRowIndex) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 29
+2025-03-04 14:09:13,987 [1] ERROR Test.Form1 - Download処理でエラーが発生しました。
+System.Exception: 读取Excel文件时发生错误: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx' because it is being used by another process.
+   at Test.ExcelUtility.ExcelToDataTable(String filePath, Boolean isFirstRowAsHeader, String sheetName, Int32 startRowIndex) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 127
+   at Test.Form1.btnDateRange_Click(Object sender, EventArgs e) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\Form1.cs:line 239
+2025-03-04 14:09:19,352 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 14:09:19,353 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 14:09:19,370 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：7
+2025-03-04 14:09:19,370 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 14:09:19,571 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 14:09:19,571 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 14:09:19,601 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-04 14:09:19,619 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-04 14:09:19,638 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-04 14:09:19,735 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-04 14:09:19,782 [1] INFO  Test.Form1 - 処理結果をファイルに出力します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.txt
+2025-03-04 14:09:20,828 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 14:11:27,842 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 14:11:32,062 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 14:11:32,063 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 14:11:32,881 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 14:11:35,122 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 14:11:35,122 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 14:11:35,867 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 14:11:41,382 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 14:11:41,382 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 14:11:42,211 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 14:11:44,375 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 14:11:44,375 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 14:11:45,490 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 14:11:47,251 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 14:11:47,251 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 14:11:48,155 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 14:11:48,156 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 14:11:48,589 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 14:11:48,589 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 14:11:48,868 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 14:11:48,868 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 14:11:48,893 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-04 14:11:48,912 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-04 14:11:49,163 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-04 14:11:49,304 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-04 14:11:49,320 [1] INFO  Test.Form1 - 処理結果をファイルに出力します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.txt
+2025-03-04 14:11:50,479 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 14:38:39,873 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 14:38:48,644 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 14:38:48,644 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 14:38:48,663 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 14:38:51,823 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 14:38:51,823 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 14:38:52,684 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 14:38:54,839 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 14:38:54,839 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 14:38:55,945 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 14:38:58,445 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 14:38:58,445 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 14:38:59,881 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 14:39:03,753 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 14:39:03,753 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 14:39:05,776 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 14:39:05,776 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 14:39:12,943 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 14:39:13,001 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 14:39:13,116 [1] ERROR Test.ExcelUtility - Excelファイルの読み込みでエラーが発生しました。ファイル：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+System.IO.IOException: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access, FileShare share)
+   at DocumentFormat.OpenXml.Features.FilePackageFeature.CreateStream(String path, PackageOpenMode openMode)
+   at DocumentFormat.OpenXml.Features.FilePackageFeature..ctor(String path, PackageOpenMode mode)
+   at DocumentFormat.OpenXml.Builder.OpenXmlPackageBuilderExtensions.Open[TPackage](IPackageFactory`1 builder, String file, PackageOpenMode mode)
+   at DocumentFormat.OpenXml.Builder.OpenXmlPackageBuilderExtensions.Open[TPackage](IPackageFactory`1 builder, String file, Boolean isEditing)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at Test.ExcelUtility.ExcelToDataSet(String filePath, String sheetName, String headerColumnName) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 245
+2025-03-04 14:39:14,958 [1] ERROR Test.Form1 - Download処理でエラーが発生しました。
+System.Exception: 读取Excel文件时发生错误: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx' because it is being used by another process.
+   at Test.ExcelUtility.ExcelToDataSet(String filePath, String sheetName, String headerColumnName) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 375
+   at Test.Form1.btnDateRange_Click(Object sender, EventArgs e) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\Form1.cs:line 238
+2025-03-04 14:39:30,836 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 14:39:30,836 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 14:39:30,856 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 14:39:30,878 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 14:39:32,057 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 14:39:32,057 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 14:39:32,074 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-04 14:39:32,091 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-04 14:39:32,114 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-04 14:39:32,175 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-04 14:39:42,939 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 14:53:01,882 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 14:53:08,354 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 14:53:08,354 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 14:53:08,653 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 14:53:11,132 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 14:53:11,132 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 14:53:11,853 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 14:53:14,381 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 14:53:14,381 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 14:53:15,185 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 14:53:18,002 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 14:53:18,003 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 14:53:18,853 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 14:53:21,065 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 14:53:21,065 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 14:53:22,181 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 14:53:22,181 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 14:53:30,093 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 14:53:30,115 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 14:53:30,609 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 14:53:30,609 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 14:53:30,690 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-04 14:53:30,708 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-04 14:53:30,754 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-04 14:53:30,773 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-04 14:53:30,833 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-04 14:53:30,858 [1] INFO  Test.Form1 - 筛选完成，删除了 10 行数据
+2025-03-04 14:53:33,840 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 15:06:54,895 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 15:07:02,471 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 15:07:02,471 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 15:07:03,254 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 15:07:07,595 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 15:07:07,595 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 15:07:09,430 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 15:07:11,225 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 15:07:11,225 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 15:07:11,944 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 15:07:14,440 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 15:07:14,440 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 15:07:15,151 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 15:07:17,142 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 15:07:17,143 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 15:07:18,189 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 15:07:18,190 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 15:07:18,894 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 15:07:18,900 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 15:07:18,973 [1] ERROR Test.ExcelUtility - Excelファイルの読み込みでエラーが発生しました。ファイル：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+System.IO.IOException: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access, FileShare share)
+   at DocumentFormat.OpenXml.Features.FilePackageFeature.CreateStream(String path, PackageOpenMode openMode)
+   at DocumentFormat.OpenXml.Features.FilePackageFeature..ctor(String path, PackageOpenMode mode)
+   at DocumentFormat.OpenXml.Builder.OpenXmlPackageBuilderExtensions.Open[TPackage](IPackageFactory`1 builder, String file, PackageOpenMode mode)
+   at DocumentFormat.OpenXml.Builder.OpenXmlPackageBuilderExtensions.Open[TPackage](IPackageFactory`1 builder, String file, Boolean isEditing)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at Test.ExcelUtility.ExcelToDataSet(String filePath, String sheetName, String headerColumnName) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 245
+2025-03-04 15:07:20,547 [1] ERROR Test.Form1 - Download処理でエラーが発生しました。
+System.Exception: 读取Excel文件时发生错误: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx' because it is being used by another process.
+   at Test.ExcelUtility.ExcelToDataSet(String filePath, String sheetName, String headerColumnName) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 375
+   at Test.Form1.btnDateRange_Click(Object sender, EventArgs e) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\Form1.cs:line 238
+2025-03-04 15:07:29,105 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 15:07:29,106 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 15:07:29,122 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 15:07:29,126 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 15:07:29,416 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 15:07:29,416 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 15:07:29,435 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-04 15:07:29,453 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-04 15:07:29,525 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-04 15:07:29,548 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-04 15:07:29,555 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-04 15:07:29,557 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-04 15:07:38,668 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 15:40:13,661 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 15:40:26,176 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 15:40:26,179 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 15:40:27,114 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 15:40:29,663 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 15:40:29,663 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 15:40:30,498 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 15:40:33,427 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 15:40:33,427 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 15:40:34,435 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 15:40:36,663 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 15:40:36,663 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 15:40:37,444 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 15:40:39,489 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 15:40:39,490 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 15:40:40,835 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 15:40:40,835 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 15:40:49,749 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 15:40:49,812 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 15:40:50,208 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 15:40:50,208 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 15:40:50,252 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-04 15:40:50,258 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-04 15:40:50,263 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-04 15:40:50,268 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-04 15:40:50,296 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-04 15:40:50,332 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-04 15:40:50,346 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-04 15:40:50,349 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-04 15:41:25,773 [1] ERROR Test.SeleniumUtility - 启动Edge浏览器时发生错误
+System.InvalidOperationException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 119
+Current browser version is 133.0.3065.92 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe (SessionNotCreated)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.StartSession(ICapabilities desiredCapabilities)
+   at OpenQA.Selenium.WebDriver..ctor(ICommandExecutor executor, ICapabilities capabilities)
+   at OpenQA.Selenium.Chromium.ChromiumDriver..ctor(ChromiumDriverService service, ChromiumOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Edge.EdgeDriver..ctor(EdgeDriverService service, EdgeOptions options, TimeSpan commandTimeout)
+   at OpenQA.Selenium.Edge.EdgeDriver..ctor(EdgeDriverService service, EdgeOptions options)
+   at Test.SeleniumUtility.LaunchAWSConsole() in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 36
+2025-03-04 15:41:28,615 [1] ERROR Test.Form1 - 启动AWS控制台失败
+System.Exception: 启动Edge浏览器失败: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 119
+Current browser version is 133.0.3065.92 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe (SessionNotCreated)
+   at Test.SeleniumUtility.LaunchAWSConsole() in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 52
+   at Test.Form1.btnDateRange_Click(Object sender, EventArgs e) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\Form1.cs:line 396
+2025-03-04 15:45:00,907 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 15:57:45,218 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 15:57:57,736 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 15:57:57,737 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 15:57:58,426 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 15:58:02,676 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 15:58:02,676 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 15:58:03,306 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 15:58:06,912 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 15:58:06,912 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 15:58:07,916 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 15:58:10,409 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 15:58:10,409 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 15:58:11,136 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 15:58:13,638 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 15:58:13,638 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 15:58:17,412 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 15:58:17,413 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 15:58:24,778 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 15:58:24,809 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 15:58:25,240 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 15:58:25,241 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 15:58:25,247 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-04 15:58:25,252 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-04 15:58:25,257 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-04 15:58:25,266 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-04 15:58:25,306 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-04 15:58:25,342 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-04 15:58:25,351 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-04 15:58:25,780 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-04 15:58:48,613 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-04 15:58:49,324 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-04 16:04:43,513 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 16:37:03,912 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-04 16:37:10,479 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-04 16:39:06,911 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 16:39:13,288 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 16:39:13,289 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 16:39:14,145 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 16:39:16,879 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 16:39:16,879 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 16:39:17,591 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 16:39:20,132 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 16:39:20,132 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 16:39:20,916 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 16:39:23,247 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 16:39:23,247 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 16:39:24,031 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 16:39:26,750 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 16:39:26,750 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 16:39:28,597 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 16:39:28,597 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 16:39:30,819 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 16:39:30,825 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 16:39:30,930 [1] ERROR Test.ExcelUtility - Excelファイルの読み込みでエラーが発生しました。ファイル：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+System.IO.IOException: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Packaging.ZipPackage..ctor(String path, FileMode packageFileMode, FileAccess packageFileAccess, FileShare share)
+   at System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare)
+   at DocumentFormat.OpenXml.Packaging.PackageLoader.OpenCore(String path, Boolean readWriteMode)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at Test.ExcelUtility.ExcelToDataSet(String filePath, String sheetName, String headerColumnName) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 245
+2025-03-04 16:39:31,397 [1] ERROR Test.Form1 - Download処理でエラーが発生しました。
+System.Exception: 读取Excel文件时发生错误: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx' because it is being used by another process.
+   at Test.ExcelUtility.ExcelToDataSet(String filePath, String sheetName, String headerColumnName) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 375
+   at Test.Form1.btnDateRange_Click(Object sender, EventArgs e) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\Form1.cs:line 238
+2025-03-04 16:39:40,952 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 16:39:40,952 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 16:39:40,958 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 16:39:40,962 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 16:39:41,233 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 16:39:41,233 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 16:39:41,278 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-04 16:39:41,282 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-04 16:39:41,294 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-04 16:39:41,299 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-04 16:39:41,345 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-04 16:39:41,347 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-04 16:39:41,362 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-04 16:39:41,364 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-04 16:39:50,686 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-04 16:39:55,229 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-04 16:54:31,087 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 16:54:33,516 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-04 16:54:37,746 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-04 17:00:50,547 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 17:09:35,630 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 17:14:00,565 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 17:14:05,097 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 18:20:13,268 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 18:20:19,363 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 18:20:19,365 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 18:20:20,136 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 18:20:22,298 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 18:20:22,298 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 18:20:22,996 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 18:20:26,063 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 18:20:26,063 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 18:20:30,752 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 18:20:33,215 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 18:20:33,215 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 18:20:34,501 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 18:20:37,435 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 18:20:37,435 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 18:20:39,101 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 18:20:39,101 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 18:20:40,492 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 18:20:40,518 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 18:20:40,722 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 18:20:40,722 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 18:20:40,756 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-04 18:20:40,760 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-04 18:20:40,765 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-04 18:20:40,770 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-04 18:20:40,776 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-04 18:20:40,779 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-04 18:20:40,784 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-04 18:20:40,886 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-04 18:20:58,306 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-04 18:21:07,047 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-04 18:22:52,995 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-04 18:22:53,320 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-04 18:22:53,320 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-04 18:23:23,672 [1] ERROR Test.SeleniumUtility - 导航到账单下载页面时发生错误
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 30 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Test.SeleniumUtility.downloadInvoice(IWebDriver driver) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 93
+2025-03-04 18:23:25,474 [1] ERROR Test.Form1 - 导航到账单下载页面失败
+System.Exception: 导航失败: Timed out after 30 seconds
+   at Test.SeleniumUtility.downloadInvoice(IWebDriver driver) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 117
+   at Test.Form1.btnDateRange_Click(Object sender, EventArgs e) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\Form1.cs:line 436
+2025-03-04 18:23:37,185 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 18:28:04,540 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-04 18:28:08,775 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-04 18:28:30,614 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 18:28:48,438 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 18:28:48,440 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 18:28:49,611 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 18:28:51,897 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 18:28:51,897 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 18:28:52,754 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 18:28:55,516 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 18:28:55,517 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 18:28:56,533 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 18:28:58,822 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 18:28:58,822 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 18:28:59,841 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 18:29:02,786 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 18:29:02,787 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 18:29:04,522 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 18:29:04,522 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 18:29:04,895 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 18:29:04,900 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 18:29:05,068 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 18:29:05,068 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 18:29:05,073 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-04 18:29:05,079 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-04 18:29:05,086 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-04 18:29:05,092 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-04 18:29:05,097 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-04 18:29:05,099 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-04 18:29:05,105 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-04 18:29:05,107 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-04 18:29:14,590 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-04 18:29:18,661 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-04 18:30:34,631 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-04 18:30:34,653 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-04 18:30:37,659 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-04 18:31:08,991 [1] ERROR Test.SeleniumUtility - 导航到账单下载页面时发生错误
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 30 seconds
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div[data-testid='awsc-nav-service-billing']"}
+  (Session info: MicrosoftEdge=133.0.3065.92)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementExists>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Test.SeleniumUtility.downloadInvoice(IWebDriver driver) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 99
+2025-03-04 18:31:09,412 [1] ERROR Test.Form1 - 导航到账单下载页面失败
+System.Exception: 导航失败: Timed out after 30 seconds
+   at Test.SeleniumUtility.downloadInvoice(IWebDriver driver) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 128
+   at Test.Form1.btnDateRange_Click(Object sender, EventArgs e) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\Form1.cs:line 436
+2025-03-04 18:31:25,779 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 18:35:49,599 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-04 18:35:53,812 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-04 18:37:05,382 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 18:37:10,372 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 18:37:10,374 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 18:37:10,750 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 18:37:13,158 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 18:37:13,158 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 18:37:14,002 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 18:37:17,189 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 18:37:17,189 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 18:37:17,997 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 18:37:20,342 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 18:37:20,343 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 18:37:21,290 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 18:37:23,321 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 18:37:23,322 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 18:37:24,643 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 18:37:24,643 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 18:37:25,037 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 18:37:25,043 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 18:37:25,244 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 18:37:25,244 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 18:37:25,277 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-04 18:37:25,282 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-04 18:37:25,287 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-04 18:37:25,293 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-04 18:37:25,299 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-04 18:37:25,300 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-04 18:37:25,306 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-04 18:37:25,309 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-04 18:37:49,789 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-04 18:37:53,622 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-04 18:39:29,854 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-04 18:39:30,073 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-04 18:39:33,083 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-04 18:40:03,549 [1] ERROR Test.SeleniumUtility - 导航到账单下载页面时发生错误
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 30 seconds
+ ---> OpenQA.Selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: MicrosoftEdge=133.0.3065.92)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Test.SeleniumUtility.downloadInvoice(IWebDriver driver) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 99
+2025-03-04 18:40:09,176 [1] ERROR Test.Form1 - 导航到账单下载页面失败
+System.Exception: 导航失败: Timed out after 30 seconds
+   at Test.SeleniumUtility.downloadInvoice(IWebDriver driver) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 128
+   at Test.Form1.btnDateRange_Click(Object sender, EventArgs e) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\Form1.cs:line 436
+2025-03-04 18:40:57,579 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 18:41:10,385 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-04 18:41:14,874 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-04 18:44:56,416 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 18:45:01,829 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 18:45:01,830 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 18:45:02,952 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 18:45:08,227 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 18:45:08,228 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 18:45:09,120 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 18:45:11,697 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 18:45:11,697 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 18:45:12,682 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 18:45:15,087 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 18:45:15,087 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 18:45:16,014 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 18:45:18,396 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 18:45:18,396 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 18:45:20,051 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 18:45:20,051 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 18:45:20,456 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 18:45:20,462 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 18:45:20,594 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 18:45:20,594 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 18:45:20,600 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-04 18:45:20,606 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-04 18:45:20,610 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-04 18:45:20,615 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-04 18:45:20,622 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-04 18:45:20,623 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-04 18:45:20,628 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-04 18:45:20,630 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-04 18:45:28,463 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-04 18:45:33,938 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-04 18:47:14,939 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-04 18:47:15,067 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-04 18:47:18,069 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-04 18:48:29,437 [1] INFO  Test.SeleniumUtility - 已点击 'Billing and Cost Management' 链接
+2025-03-04 18:48:32,444 [1] INFO  Test.SeleniumUtility - 等待 '支払い' 链接可点击...
+2025-03-04 18:49:35,244 [1] INFO  Test.SeleniumUtility - 已点击 '支払い' 链接
+2025-03-04 18:49:38,257 [1] INFO  Test.SeleniumUtility - 等待 '取引' tab可点击...
+2025-03-04 18:50:09,329 [1] ERROR Test.SeleniumUtility - 导航到账单下载页面时发生错误
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 30 seconds
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), '取引')] | //a[contains(text(), '取引')]"}
+  (Session info: MicrosoftEdge=133.0.3065.92)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementExists>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Test.SeleniumUtility.downloadInvoice(IWebDriver driver) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 148
+2025-03-04 18:50:10,628 [1] ERROR Test.Form1 - 导航到账单下载页面失败
+System.Exception: 导航失败: Timed out after 30 seconds
+   at Test.SeleniumUtility.downloadInvoice(IWebDriver driver) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 158
+   at Test.Form1.btnDateRange_Click(Object sender, EventArgs e) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\Form1.cs:line 436
+2025-03-04 18:50:15,017 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 18:51:10,707 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-04 18:51:15,678 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-04 18:53:59,485 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 18:54:07,953 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 18:54:07,954 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 18:54:08,560 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 18:54:11,301 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 18:54:11,301 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 18:54:12,176 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 18:54:14,974 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 18:54:14,975 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 18:54:15,985 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 18:54:18,122 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 18:54:18,123 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 18:54:18,797 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 18:54:20,812 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 18:54:20,812 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 18:54:21,663 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 18:54:21,663 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 18:54:22,297 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 18:54:22,303 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 18:54:22,447 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 18:54:22,447 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 18:54:22,454 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-04 18:54:22,459 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-04 18:54:22,464 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-04 18:54:22,470 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-04 18:54:22,475 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-04 18:54:22,477 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-04 18:54:22,483 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-04 18:54:22,486 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-04 18:54:31,747 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-04 18:54:41,780 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-04 18:56:34,069 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-04 18:56:34,074 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-04 18:56:39,086 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-04 18:57:25,842 [1] INFO  Test.SeleniumUtility - 已点击 'Billing and Cost Management' 链接
+2025-03-04 18:57:30,856 [1] INFO  Test.SeleniumUtility - 等待 '支払い' 链接可点击...
+2025-03-04 18:57:31,992 [1] INFO  Test.SeleniumUtility - 已点击 '支払い' 链接
+2025-03-04 18:57:37,000 [1] INFO  Test.SeleniumUtility - 等待 '取引' tab可点击...
+2025-03-04 18:58:08,262 [1] ERROR Test.SeleniumUtility - 找不到 '取引' tab，尝试其他方法
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 30 seconds
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[self::button or self::a or self::div][contains(text(), '取引') or contains(@aria-label, '取引')]"}
+  (Session info: MicrosoftEdge=133.0.3065.92)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementExists>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Test.SeleniumUtility.downloadInvoice(IWebDriver driver) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 175
+2025-03-04 18:58:20,057 [1] INFO  Test.SeleniumUtility - 成功导航到账单下载页面
+2025-03-04 18:59:36,609 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 19:08:39,763 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-04 19:08:44,106 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-04 19:09:29,154 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 19:09:36,437 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 19:09:36,439 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 19:09:37,094 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 19:09:38,911 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 19:09:38,911 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 19:09:39,624 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 19:09:42,218 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 19:09:42,218 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 19:09:42,838 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 19:09:45,927 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 19:09:45,927 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 19:09:46,616 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 19:09:48,760 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 19:09:48,760 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 19:09:50,159 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 19:09:50,159 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 19:09:50,557 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 19:09:50,562 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 19:09:50,674 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 19:09:50,674 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 19:09:50,698 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-04 19:09:50,703 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-04 19:09:50,707 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-04 19:09:50,712 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-04 19:09:50,717 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-04 19:09:50,719 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-04 19:09:50,724 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-04 19:09:50,726 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-04 19:09:58,759 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-04 19:10:06,925 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-04 19:11:32,217 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-04 19:11:32,239 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-04 19:11:35,251 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-04 19:12:20,236 [1] INFO  Test.SeleniumUtility - 已点击 'Billing and Cost Management' 链接
+2025-03-04 19:12:23,245 [1] INFO  Test.SeleniumUtility - 等待 '支払い' 链接可点击...
+2025-03-04 19:12:42,639 [1] INFO  Test.SeleniumUtility - 已点击 '支払い' 链接
+2025-03-04 19:12:45,640 [1] INFO  Test.SeleniumUtility - 等待 '取引' tab可点击...
+2025-03-04 19:13:16,815 [1] ERROR Test.SeleniumUtility - 导航到账单下载页面时发生错误
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 30 seconds
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[href='/billing/home#/paymentsoverview']"}
+  (Session info: MicrosoftEdge=133.0.3065.92)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementExists>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Test.SeleniumUtility.downloadInvoice(IWebDriver driver) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 150
+2025-03-04 19:13:17,649 [1] ERROR Test.Form1 - 导航到账单下载页面失败
+System.Exception: 导航失败: Timed out after 30 seconds
+   at Test.SeleniumUtility.downloadInvoice(IWebDriver driver) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 160
+   at Test.Form1.btnDateRange_Click(Object sender, EventArgs e) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\Form1.cs:line 436
+2025-03-04 19:13:26,014 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 19:16:54,290 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-04 19:16:58,681 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-04 19:17:21,642 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 19:17:26,348 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 19:17:26,349 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 19:17:27,222 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 19:17:30,982 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 19:17:30,982 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 19:17:32,526 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 19:17:35,155 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 19:17:35,156 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 19:17:36,143 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 19:17:38,841 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 19:17:38,841 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 19:17:39,703 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 19:17:41,749 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 19:17:41,749 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 19:17:43,082 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 19:17:43,082 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 19:17:43,645 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 19:17:43,651 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 19:17:44,075 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 19:17:44,075 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 19:17:44,116 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-04 19:17:44,121 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-04 19:17:44,129 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-04 19:17:44,135 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-04 19:17:44,142 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-04 19:17:44,144 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-04 19:17:44,155 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-04 19:17:44,158 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-04 19:17:51,189 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-04 19:17:57,167 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-04 19:19:06,537 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-04 19:19:06,560 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-04 19:19:09,572 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-04 19:19:51,007 [1] INFO  Test.SeleniumUtility - 已点击 'Billing and Cost Management' 链接
+2025-03-04 19:19:54,010 [1] INFO  Test.SeleniumUtility - 等待 '支払い' 链接可点击...
+2025-03-04 19:20:09,645 [1] INFO  Test.SeleniumUtility - 已点击 '支払い' 链接
+2025-03-04 19:20:12,655 [1] INFO  Test.SeleniumUtility - 等待 '取引' tab可点击...
+2025-03-04 19:20:43,757 [1] ERROR Test.SeleniumUtility - 导航到账单下载页面时发生错误
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 30 seconds
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='awsui-tabs-22-1741083163448-5427-Transactions']/span/span/span"}
+  (Session info: MicrosoftEdge=133.0.3065.92)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementExists>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Test.SeleniumUtility.downloadInvoice(IWebDriver driver) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 148
+2025-03-04 19:20:43,808 [1] ERROR Test.Form1 - 导航到账单下载页面失败
+System.Exception: 导航失败: Timed out after 30 seconds
+   at Test.SeleniumUtility.downloadInvoice(IWebDriver driver) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 158
+   at Test.Form1.btnDateRange_Click(Object sender, EventArgs e) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\Form1.cs:line 436
+2025-03-04 19:20:47,088 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 19:28:51,158 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-04 19:28:56,102 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-04 19:30:06,792 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 19:30:13,313 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 19:30:13,315 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 19:30:14,146 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 19:30:18,623 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 19:30:18,623 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 19:30:19,736 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 19:30:22,359 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 19:30:22,359 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 19:30:23,042 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 19:30:24,975 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 19:30:24,975 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 19:30:25,975 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 19:30:28,004 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 19:30:28,004 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 19:30:29,455 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 19:30:29,455 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 19:30:30,319 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 19:30:30,326 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 19:30:30,612 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 19:30:30,613 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 19:30:30,621 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-04 19:30:30,630 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-04 19:30:30,637 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-04 19:30:30,647 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-04 19:30:30,767 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-04 19:30:30,770 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-04 19:30:30,779 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-04 19:30:30,782 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-04 19:30:39,704 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-04 19:30:47,523 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-04 19:32:16,064 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-04 19:32:16,125 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-04 19:32:19,127 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-04 19:33:17,336 [1] INFO  Test.SeleniumUtility - 已点击 'Billing and Cost Management' 链接
+2025-03-04 19:33:20,350 [1] INFO  Test.SeleniumUtility - 等待 '支払い' 链接可点击...
+2025-03-04 19:33:41,948 [1] INFO  Test.SeleniumUtility - 已点击 '支払い' 链接
+2025-03-04 19:33:44,960 [1] INFO  Test.SeleniumUtility - 等待 '取引' tab可点击...
+2025-03-04 19:33:45,404 [1] INFO  Test.SeleniumUtility - 已点击 '取引' tab
+2025-03-04 19:33:45,404 [1] INFO  Test.SeleniumUtility - 成功导航到账单下载页面
+2025-03-04 19:33:48,790 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 19:40:04,592 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-04 19:40:14,357 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-04 19:55:02,406 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 19:55:12,443 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 19:55:12,445 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 19:55:12,998 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 19:55:32,527 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 19:55:32,527 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 19:55:33,451 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 19:55:35,709 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 19:55:35,709 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 19:55:36,480 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 19:55:38,746 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 19:55:38,747 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 19:55:39,867 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 19:55:42,097 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 19:55:42,097 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 19:55:43,989 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 19:55:43,990 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 19:55:45,346 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 19:55:45,381 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 19:55:45,897 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 19:55:45,897 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 19:55:45,903 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-04 19:55:45,909 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-04 19:55:45,914 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-04 19:55:45,920 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-04 19:55:45,928 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-04 19:55:45,978 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-04 19:55:46,103 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-04 19:55:46,107 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-04 19:56:04,582 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-04 19:56:16,092 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-04 19:58:55,973 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-04 19:58:56,097 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-04 19:58:59,108 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-04 20:00:03,129 [1] INFO  Test.SeleniumUtility - 已点击 'Billing and Cost Management' 链接
+2025-03-04 20:00:06,133 [1] INFO  Test.SeleniumUtility - 等待 '支払い' 链接可点击...
+2025-03-04 20:00:17,482 [1] INFO  Test.SeleniumUtility - 已点击 '支払い' 链接
+2025-03-04 20:00:20,491 [1] INFO  Test.SeleniumUtility - 等待 '取引' tab可点击...
+2025-03-04 20:00:21,058 [1] INFO  Test.SeleniumUtility - 已点击 '取引' tab
+2025-03-04 20:00:21,058 [1] INFO  Test.SeleniumUtility - 等待用户菜单可点击...
+2025-03-04 20:00:21,162 [1] INFO  Test.SeleniumUtility - 等待'ロールの切り替え'选项可点击...
+2025-03-04 20:00:28,828 [1] INFO  Test.SeleniumUtility - 输入账户ID...
+2025-03-04 20:00:59,905 [1] ERROR Test.SeleniumUtility - 导航到账单下载页面时发生错误
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 30 seconds
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#account"}
+  (Session info: MicrosoftEdge=133.0.3065.92)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementExists>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Test.SeleniumUtility.downloadInvoice(IWebDriver driver) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 168
+2025-03-04 20:01:00,825 [1] ERROR Test.Form1 - 导航到账单下载页面失败
+System.Exception: 导航失败: Timed out after 30 seconds
+   at Test.SeleniumUtility.downloadInvoice(IWebDriver driver) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 194
+   at Test.Form1.btnDateRange_Click(Object sender, EventArgs e) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\Form1.cs:line 436
+2025-03-04 20:01:04,415 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 20:17:57,244 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-04 20:18:11,695 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-04 20:57:08,078 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 20:57:43,536 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 20:57:43,538 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 20:57:44,754 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 20:57:48,982 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 20:57:48,982 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 20:57:49,610 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 20:57:52,413 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 20:57:52,414 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 20:57:53,877 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 20:57:56,524 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 20:57:56,524 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 20:57:57,555 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 20:58:00,618 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 20:58:00,618 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 20:58:09,915 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 20:58:09,915 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 20:58:42,447 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 20:58:42,580 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 20:58:43,805 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 20:58:43,805 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 20:58:43,809 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-04 20:58:43,813 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-04 20:58:43,829 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-04 20:58:43,835 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-04 20:58:43,995 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-04 20:58:44,064 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-04 20:58:44,173 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-04 20:58:44,723 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-04 20:59:36,198 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-04 20:59:39,505 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-04 21:02:20,277 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-04 21:02:20,389 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-04 21:02:23,400 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-04 21:03:11,035 [1] INFO  Test.SeleniumUtility - 已点击 'Billing and Cost Management' 链接
+2025-03-04 21:03:14,039 [1] INFO  Test.SeleniumUtility - 等待 '支払い' 链接可点击...
+2025-03-04 21:03:44,719 [1] INFO  Test.SeleniumUtility - 已点击 '支払い' 链接
+2025-03-04 21:03:47,727 [1] INFO  Test.SeleniumUtility - 等待 '取引' tab可点击...
+2025-03-04 21:03:48,301 [1] INFO  Test.SeleniumUtility - 已点击 '取引' tab
+2025-03-04 21:03:48,302 [1] INFO  Test.SeleniumUtility - 等待用户菜单可点击...
+2025-03-04 21:03:48,513 [1] INFO  Test.SeleniumUtility - 等待'ロールの切り替え'选项可点击...
+2025-03-04 21:03:56,876 [1] INFO  Test.SeleniumUtility - 输入账户ID...
+2025-03-04 21:03:58,273 [1] INFO  Test.SeleniumUtility - 输入IAM角色名...
+2025-03-04 21:03:58,579 [1] INFO  Test.SeleniumUtility - 点击'ロールの切り替え'按钮...
+2025-03-04 21:03:58,987 [1] INFO  Test.SeleniumUtility - 角色切换完成
+2025-03-04 21:04:01,991 [1] INFO  Test.SeleniumUtility - 成功导航到账单下载页面
+2025-03-04 21:04:59,398 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 21:05:01,094 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-04 21:05:06,625 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-04 21:15:38,903 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 21:15:47,878 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 21:15:47,879 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 21:15:48,850 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 21:15:51,858 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 21:15:51,858 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 21:15:52,643 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 21:15:55,421 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 21:15:55,421 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 21:15:56,363 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 21:15:58,988 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 21:15:58,988 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 21:15:59,661 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 21:16:01,877 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 21:16:01,877 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 21:16:03,302 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 21:16:03,302 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 21:16:06,001 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 21:16:06,006 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 21:16:06,341 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 21:16:06,342 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 21:16:06,386 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-04 21:16:06,391 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-04 21:16:06,396 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-04 21:16:06,401 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-04 21:16:06,464 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-04 21:16:06,743 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-04 21:16:06,790 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-04 21:16:07,170 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-04 21:17:08,440 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-04 21:17:11,099 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-04 21:18:57,325 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-04 21:18:57,591 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-04 21:19:00,596 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-04 21:19:59,673 [1] INFO  Test.SeleniumUtility - 已点击 'Billing and Cost Management' 链接
+2025-03-04 21:20:02,680 [1] INFO  Test.SeleniumUtility - 等待 '支払い' 链接可点击...
+2025-03-04 21:20:32,444 [1] INFO  Test.SeleniumUtility - 已点击 '支払い' 链接
+2025-03-04 21:20:35,455 [1] INFO  Test.SeleniumUtility - 等待 '取引' tab可点击...
+2025-03-04 21:20:48,457 [1] INFO  Test.SeleniumUtility - 已点击 '取引' tab
+2025-03-04 21:20:48,457 [1] INFO  Test.SeleniumUtility - 等待用户菜单可点击...
+2025-03-04 21:20:49,051 [1] INFO  Test.SeleniumUtility - 等待'ロールの切り替え'选项可点击...
+2025-03-04 21:20:56,778 [1] INFO  Test.SeleniumUtility - 角色切换完成
+2025-03-04 21:20:59,791 [1] INFO  Test.SeleniumUtility - 等待日期范围控件可点击...
+2025-03-04 21:21:30,989 [1] ERROR Test.SeleniumUtility - 导航到账单下载页面时发生错误
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 30 seconds
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"button[type='button'][aria-haspopup='dialog']"}
+  (Session info: MicrosoftEdge=133.0.3065.92)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementExists>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Test.SeleniumUtility.downloadInvoice(IWebDriver driver) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 171
+2025-03-04 21:21:35,992 [1] ERROR Test.Form1 - 导航到账单下载页面失败
+System.Exception: 导航失败: Timed out after 30 seconds
+   at Test.SeleniumUtility.downloadInvoice(IWebDriver driver) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 184
+   at Test.Form1.btnDateRange_Click(Object sender, EventArgs e) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\Form1.cs:line 436
+2025-03-04 21:21:38,854 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 21:24:06,192 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-04 21:24:10,516 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-04 21:24:48,330 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-04 21:24:54,970 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 21:24:54,971 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-04 21:24:55,524 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-04 21:24:57,953 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 21:24:57,953 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-04 21:24:58,662 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-04 21:25:00,654 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 21:25:00,655 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-04 21:25:01,377 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-04 21:25:03,929 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-04 21:25:03,929 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-04 21:25:04,609 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-04 21:25:07,473 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-04 21:25:07,474 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-04 21:25:08,411 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-04 21:25:08,412 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-04 21:25:09,172 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-04 21:25:09,177 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-04 21:25:09,458 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-04 21:25:09,458 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-04 21:25:09,463 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-04 21:25:09,469 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-04 21:25:09,474 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-04 21:25:09,480 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-04 21:25:09,487 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-04 21:25:09,489 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-04 21:25:09,494 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-04 21:25:09,496 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-04 21:25:20,096 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-04 21:25:29,692 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-04 21:27:09,043 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-04 21:27:09,050 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-04 21:27:12,052 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-04 21:27:56,073 [1] INFO  Test.SeleniumUtility - 已点击 'Billing and Cost Management' 链接
+2025-03-04 21:27:59,083 [1] INFO  Test.SeleniumUtility - 等待 '支払い' 链接可点击...
+2025-03-04 21:28:18,453 [1] INFO  Test.SeleniumUtility - 已点击 '支払い' 链接
+2025-03-04 21:28:21,456 [1] INFO  Test.SeleniumUtility - 等待 '取引' tab可点击...
+2025-03-04 21:28:21,902 [1] INFO  Test.SeleniumUtility - 已点击 '取引' tab
+2025-03-04 21:28:21,902 [1] INFO  Test.SeleniumUtility - 等待用户菜单可点击...
+2025-03-04 21:28:22,022 [1] INFO  Test.SeleniumUtility - 等待'ロールの切り替え'选项可点击...
+2025-03-04 21:28:30,751 [1] INFO  Test.SeleniumUtility - 输入账户ID...
+2025-03-04 21:28:31,759 [1] INFO  Test.SeleniumUtility - 输入IAM角色名...
+2025-03-04 21:28:32,096 [1] INFO  Test.SeleniumUtility - 点击'ロールの切り替え'按钮...
+2025-03-04 21:28:35,143 [1] INFO  Test.SeleniumUtility - 等待日期范围控件可点击...
+2025-03-04 21:28:40,742 [1] INFO  Test.SeleniumUtility - 已点击日期范围控件
+2025-03-04 21:28:43,754 [1] INFO  Test.SeleniumUtility - 成功导航到账单下载页面
+2025-03-04 21:28:48,264 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-04 21:38:04,419 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-04 21:38:57,110 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭

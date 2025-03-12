@@ -1,0 +1,2147 @@
+2025-03-05 09:50:28,066 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-05 09:50:38,962 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 09:50:38,963 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-05 09:50:40,200 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-05 09:50:42,971 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 09:50:43,004 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-05 09:50:43,898 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-05 09:50:46,286 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 09:50:46,286 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-05 09:50:47,211 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-05 09:50:49,250 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 09:50:49,250 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-05 09:50:50,155 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-05 09:50:52,504 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-05 09:50:52,504 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-05 09:50:53,988 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 09:50:53,989 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 09:50:55,702 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 09:50:55,710 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 09:50:56,011 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 09:50:56,011 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 09:50:56,017 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 09:50:56,025 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 09:50:56,033 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 09:50:56,041 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 09:50:56,090 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-05 09:50:56,093 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-05 09:50:56,099 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-05 09:50:56,207 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-05 09:51:11,999 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-05 09:51:22,883 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-05 09:53:38,271 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-05 09:53:38,414 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-05 09:53:41,428 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-05 09:54:24,808 [1] INFO  Test.SeleniumUtility - 已点击 'Billing and Cost Management' 链接
+2025-03-05 09:54:27,810 [1] INFO  Test.SeleniumUtility - 等待 '支払い' 链接可点击...
+2025-03-05 09:54:45,701 [1] INFO  Test.SeleniumUtility - 已点击 '支払い' 链接
+2025-03-05 09:54:48,711 [1] INFO  Test.SeleniumUtility - 等待 '取引' tab可点击...
+2025-03-05 09:54:49,171 [1] INFO  Test.SeleniumUtility - 已点击 '取引' tab
+2025-03-05 09:54:49,171 [1] INFO  Test.SeleniumUtility - 等待用户菜单可点击...
+2025-03-05 09:54:49,332 [1] INFO  Test.SeleniumUtility - 等待'ロールの切り替え'选项可点击...
+2025-03-05 09:54:58,697 [1] INFO  Test.SeleniumUtility - 输入账户ID...
+2025-03-05 09:54:59,755 [1] INFO  Test.SeleniumUtility - 输入IAM角色名...
+2025-03-05 09:55:00,096 [1] INFO  Test.SeleniumUtility - 点击'ロールの切り替え'按钮...
+2025-03-05 09:55:03,275 [1] INFO  Test.SeleniumUtility - 等待日期范围控件可点击...
+2025-03-05 09:55:09,497 [1] INFO  Test.SeleniumUtility - 已点击日期范围控件
+2025-03-05 09:55:12,508 [1] INFO  Test.SeleniumUtility - 成功导航到账单下载页面
+2025-03-05 09:56:04,545 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 09:56:08,604 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-05 09:56:13,874 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-05 10:36:29,033 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-05 10:36:40,191 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 10:36:40,192 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-05 10:36:41,015 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-05 10:36:44,592 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 10:36:44,593 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-05 10:36:45,752 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-05 10:36:47,890 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 10:36:47,890 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-05 10:36:48,790 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-05 10:36:51,377 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 10:36:51,377 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-05 10:36:52,608 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-05 10:36:55,317 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-05 10:36:55,317 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-05 10:36:57,356 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 10:36:57,357 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 10:36:58,815 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 10:36:58,847 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 10:36:59,078 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 10:36:59,078 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 10:36:59,112 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 10:36:59,117 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 10:36:59,122 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 10:36:59,127 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 10:36:59,140 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-05 10:36:59,142 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-05 10:36:59,162 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-05 10:36:59,265 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-05 10:37:23,223 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-05 10:37:24,306 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-05 10:40:58,131 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-05 10:40:58,164 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-05 10:41:01,172 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-05 10:41:40,786 [1] INFO  Test.SeleniumUtility - 已点击 'Billing and Cost Management' 链接
+2025-03-05 10:41:43,793 [1] INFO  Test.SeleniumUtility - 等待 '支払い' 链接可点击...
+2025-03-05 10:42:13,438 [1] INFO  Test.SeleniumUtility - 已点击 '支払い' 链接
+2025-03-05 10:42:16,446 [1] INFO  Test.SeleniumUtility - 等待 '取引' tab可点击...
+2025-03-05 10:42:16,863 [1] INFO  Test.SeleniumUtility - 已点击 '取引' tab
+2025-03-05 10:42:16,863 [1] INFO  Test.SeleniumUtility - 等待用户菜单可点击...
+2025-03-05 10:42:17,035 [1] INFO  Test.SeleniumUtility - 等待'ロールの切り替え'选项可点击...
+2025-03-05 10:42:27,107 [1] INFO  Test.SeleniumUtility - 输入账户ID...
+2025-03-05 10:42:27,478 [1] INFO  Test.SeleniumUtility - 输入IAM角色名...
+2025-03-05 10:42:27,815 [1] INFO  Test.SeleniumUtility - 点击'ロールの切り替え'按钮...
+2025-03-05 10:42:30,866 [1] INFO  Test.SeleniumUtility - 等待日期范围控件可点击...
+2025-03-05 10:42:36,035 [1] INFO  Test.SeleniumUtility - 已点击日期范围控件
+2025-03-05 10:42:39,045 [1] INFO  Test.SeleniumUtility - 定位日期输入框...
+2025-03-05 10:42:39,068 [1] INFO  Test.SeleniumUtility - 输入起始日期: 2024/02/04
+2025-03-05 10:42:39,607 [1] INFO  Test.SeleniumUtility - 输入结束日期: 2025/03/04
+2025-03-05 10:42:40,014 [1] INFO  Test.SeleniumUtility - 点击適用按钮...
+2025-03-05 10:42:40,121 [1] INFO  Test.SeleniumUtility - 已点击適用按钮
+2025-03-05 10:42:43,124 [1] INFO  Test.SeleniumUtility - 成功导航到账单下载页面
+2025-03-05 10:43:34,926 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 10:44:04,328 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-05 10:44:08,568 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-05 11:22:08,386 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-05 11:22:13,720 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 11:22:13,721 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-05 11:22:14,553 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-05 11:22:18,211 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 11:22:18,211 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-05 11:22:19,589 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-05 11:22:24,287 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 11:22:24,287 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-05 11:22:26,945 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-05 11:22:33,911 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 11:22:33,911 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-05 11:22:34,959 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-05 11:22:37,856 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-05 11:22:37,856 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-05 11:22:40,435 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 11:22:40,436 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 11:22:40,840 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 11:22:40,845 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 11:22:40,973 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 11:22:40,973 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 11:22:40,979 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 11:22:40,983 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 11:22:40,988 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 11:22:40,994 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 11:22:41,006 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-05 11:22:41,008 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-05 11:22:41,013 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-05 11:22:41,015 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-05 11:22:41,111 [1] ERROR Test.SeleniumUtility - 启动Edge浏览器时发生错误
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Test.SeleniumUtility.LaunchAWSConsole() in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 32
+2025-03-05 11:22:41,498 [1] ERROR Test.Form1 - 启动AWS控制台失败
+System.Exception: 启动Edge浏览器失败: Object reference not set to an instance of an object.
+   at Test.SeleniumUtility.LaunchAWSConsole() in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 67
+   at Test.Form1.btnDateRange_Click(Object sender, EventArgs e) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\Form1.cs:line 397
+2025-03-05 11:22:55,663 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 11:23:06,252 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 11:23:06,252 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 11:23:06,260 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 11:23:06,265 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 11:23:06,330 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 11:23:06,330 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 11:23:06,335 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 11:23:06,341 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 11:23:06,346 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 11:23:06,351 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 11:23:06,356 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-05 11:23:06,356 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-05 11:23:06,361 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-05 11:23:06,361 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-05 11:23:06,361 [1] ERROR Test.SeleniumUtility - 启动Edge浏览器时发生错误
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Test.SeleniumUtility.LaunchAWSConsole() in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 32
+2025-03-05 11:23:06,362 [1] ERROR Test.Form1 - 启动AWS控制台失败
+System.Exception: 启动Edge浏览器失败: Object reference not set to an instance of an object.
+   at Test.SeleniumUtility.LaunchAWSConsole() in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 67
+   at Test.Form1.btnDateRange_Click(Object sender, EventArgs e) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\Form1.cs:line 397
+2025-03-05 11:23:20,988 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 11:29:16,507 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-05 11:29:47,305 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 11:29:47,306 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-05 11:29:48,376 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-05 11:29:51,323 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 11:29:51,323 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-05 11:29:52,226 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-05 11:29:54,705 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 11:29:54,705 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-05 11:29:55,392 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-05 11:29:57,864 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 11:29:57,864 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-05 11:29:58,710 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-05 11:30:03,011 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-05 11:30:03,011 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-05 11:30:05,186 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 11:30:05,186 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 11:30:05,512 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 11:30:05,517 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 11:30:05,631 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 11:30:05,632 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 11:30:05,638 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 11:30:05,645 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 11:30:05,649 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 11:30:05,654 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 11:30:05,660 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-05 11:30:05,661 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-05 11:30:05,666 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-05 11:30:05,668 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-05 11:30:17,403 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-05 11:30:20,830 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-05 11:31:49,121 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-05 11:31:49,208 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-05 11:31:52,221 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-05 11:32:38,759 [1] INFO  Test.SeleniumUtility - 已点击 'Billing and Cost Management' 链接
+2025-03-05 11:32:41,762 [1] INFO  Test.SeleniumUtility - 等待 '支払い' 链接可点击...
+2025-03-05 11:33:06,433 [1] INFO  Test.SeleniumUtility - 已点击 '支払い' 链接
+2025-03-05 11:33:09,438 [1] INFO  Test.SeleniumUtility - 等待 '取引' tab可点击...
+2025-03-05 11:33:10,047 [1] INFO  Test.SeleniumUtility - 已点击 '取引' tab
+2025-03-05 11:33:10,048 [1] INFO  Test.SeleniumUtility - 等待用户菜单可点击...
+2025-03-05 11:33:10,196 [1] INFO  Test.SeleniumUtility - 等待'ロールの切り替え'选项可点击...
+2025-03-05 11:33:21,151 [1] INFO  Test.SeleniumUtility - 输入账户ID...
+2025-03-05 11:33:21,513 [1] INFO  Test.SeleniumUtility - 输入IAM角色名...
+2025-03-05 11:33:21,820 [1] INFO  Test.SeleniumUtility - 点击'ロールの切り替え'按钮...
+2025-03-05 11:33:24,869 [1] INFO  Test.SeleniumUtility - 等待日期范围控件可点击...
+2025-03-05 11:33:30,968 [1] INFO  Test.SeleniumUtility - 已点击日期范围控件
+2025-03-05 11:33:33,970 [1] INFO  Test.SeleniumUtility - 定位日期输入框...
+2025-03-05 11:33:33,992 [1] INFO  Test.SeleniumUtility - 输入起始日期: 2024/02/04
+2025-03-05 11:33:34,564 [1] INFO  Test.SeleniumUtility - 输入结束日期: 2025/03/04
+2025-03-05 11:33:35,037 [1] INFO  Test.SeleniumUtility - 点击適用按钮...
+2025-03-05 11:33:35,179 [1] INFO  Test.SeleniumUtility - 已点击適用按钮
+2025-03-05 11:33:38,188 [1] INFO  Test.SeleniumUtility - 定位发票下载按钮...
+2025-03-05 11:34:09,357 [1] ERROR Test.SeleniumUtility - 导航到账单下载页面时发生错误
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 30 seconds
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Test.SeleniumUtility.downloadInvoice(IWebDriver driver) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 236
+2025-03-05 11:34:09,501 [1] ERROR Test.Form1 - 导航到账单下载页面失败
+System.Exception: 导航失败: Timed out after 30 seconds
+   at Test.SeleniumUtility.downloadInvoice(IWebDriver driver) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 301
+   at Test.Form1.btnDateRange_Click(Object sender, EventArgs e) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\Form1.cs:line 436
+2025-03-05 11:34:33,945 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 11:35:06,561 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-05 11:35:11,227 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-05 11:40:00,722 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-05 11:40:03,926 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 11:40:03,927 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-05 11:40:04,588 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-05 11:40:06,670 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 11:40:06,670 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-05 11:40:07,432 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-05 11:40:10,281 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 11:40:10,281 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-05 11:40:10,988 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-05 11:40:12,991 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 11:40:12,991 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-05 11:40:13,874 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-05 11:40:16,453 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-05 11:40:16,453 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-05 11:40:17,457 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 11:40:17,458 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 11:40:17,754 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 11:40:17,760 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 11:40:17,884 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 11:40:17,884 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 11:40:17,890 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 11:40:17,897 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 11:40:17,902 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 11:40:17,909 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 11:40:17,917 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-05 11:40:17,920 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-05 11:40:17,926 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-05 11:40:17,929 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-05 11:40:23,248 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-05 11:40:27,917 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-05 11:41:52,571 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-05 11:41:52,582 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-05 11:41:55,592 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-05 11:42:38,223 [1] INFO  Test.SeleniumUtility - 已点击 'Billing and Cost Management' 链接
+2025-03-05 11:42:41,232 [1] INFO  Test.SeleniumUtility - 等待 '支払い' 链接可点击...
+2025-03-05 11:43:02,003 [1] INFO  Test.SeleniumUtility - 已点击 '支払い' 链接
+2025-03-05 11:43:05,014 [1] INFO  Test.SeleniumUtility - 等待 '取引' tab可点击...
+2025-03-05 11:43:05,397 [1] INFO  Test.SeleniumUtility - 已点击 '取引' tab
+2025-03-05 11:43:05,397 [1] INFO  Test.SeleniumUtility - 等待用户菜单可点击...
+2025-03-05 11:43:05,516 [1] INFO  Test.SeleniumUtility - 等待'ロールの切り替え'选项可点击...
+2025-03-05 11:43:14,965 [1] INFO  Test.SeleniumUtility - 输入账户ID...
+2025-03-05 11:43:15,283 [1] INFO  Test.SeleniumUtility - 输入IAM角色名...
+2025-03-05 11:43:15,576 [1] INFO  Test.SeleniumUtility - 点击'ロールの切り替え'按钮...
+2025-03-05 11:43:18,620 [1] INFO  Test.SeleniumUtility - 等待日期范围控件可点击...
+2025-03-05 11:43:22,174 [1] INFO  Test.SeleniumUtility - 已点击日期范围控件
+2025-03-05 11:43:25,178 [1] INFO  Test.SeleniumUtility - 定位日期输入框...
+2025-03-05 11:43:25,200 [1] INFO  Test.SeleniumUtility - 输入起始日期: 2024/02/04
+2025-03-05 11:43:25,654 [1] INFO  Test.SeleniumUtility - 输入结束日期: 2025/03/04
+2025-03-05 11:43:26,069 [1] INFO  Test.SeleniumUtility - 点击適用按钮...
+2025-03-05 11:43:26,226 [1] INFO  Test.SeleniumUtility - 已点击適用按钮
+2025-03-05 11:43:29,233 [1] INFO  Test.SeleniumUtility - 定位发票下载按钮...
+2025-03-05 11:43:29,289 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1798152585 をダウンロード
+2025-03-05 11:43:29,321 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 11:44:29,688 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 11:44:29,708 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1798221993 をダウンロード
+2025-03-05 11:44:29,744 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 11:45:29,832 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 11:45:33,980 [1] ERROR Test.SeleniumUtility - 点击下载按钮时发生错误: An unknown exception was encountered sending an HTTP request to the remote WebDriver server for URL http://localhost:64939/session/d17f1c2c3f7ff3c47428a429b4703386/execute/sync. The exception message was: 対象のコンピューターによって拒否されたため、接続できませんでした。 (localhost:64939)
+2025-03-05 11:45:38,082 [1] ERROR Test.SeleniumUtility - 点击下载按钮时发生错误: An unknown exception was encountered sending an HTTP request to the remote WebDriver server for URL http://localhost:64939/session/d17f1c2c3f7ff3c47428a429b4703386/execute/sync. The exception message was: 対象のコンピューターによって拒否されたため、接続できませんでした。 (localhost:64939)
+2025-03-05 11:45:42,214 [1] ERROR Test.SeleniumUtility - 点击下载按钮时发生错误: An unknown exception was encountered sending an HTTP request to the remote WebDriver server for URL http://localhost:64939/session/d17f1c2c3f7ff3c47428a429b4703386/execute/sync. The exception message was: 対象のコンピューターによって拒否されたため、接続できませんでした。 (localhost:64939)
+2025-03-05 11:45:46,368 [1] ERROR Test.SeleniumUtility - 点击下载按钮时发生错误: An unknown exception was encountered sending an HTTP request to the remote WebDriver server for URL http://localhost:64939/session/d17f1c2c3f7ff3c47428a429b4703386/execute/sync. The exception message was: 対象のコンピューターによって拒否されたため、接続できませんでした。 (localhost:64939)
+2025-03-05 11:45:50,525 [1] ERROR Test.SeleniumUtility - 点击下载按钮时发生错误: An unknown exception was encountered sending an HTTP request to the remote WebDriver server for URL http://localhost:64939/session/d17f1c2c3f7ff3c47428a429b4703386/execute/sync. The exception message was: 対象のコンピューターによって拒否されたため、接続できませんでした。 (localhost:64939)
+2025-03-05 11:45:54,681 [1] ERROR Test.SeleniumUtility - 点击下载按钮时发生错误: An unknown exception was encountered sending an HTTP request to the remote WebDriver server for URL http://localhost:64939/session/d17f1c2c3f7ff3c47428a429b4703386/execute/sync. The exception message was: 対象のコンピューターによって拒否されたため、接続できませんでした。 (localhost:64939)
+2025-03-05 11:45:58,822 [1] ERROR Test.SeleniumUtility - 点击下载按钮时发生错误: An unknown exception was encountered sending an HTTP request to the remote WebDriver server for URL http://localhost:64939/session/d17f1c2c3f7ff3c47428a429b4703386/execute/sync. The exception message was: 対象のコンピューターによって拒否されたため、接続できませんでした。 (localhost:64939)
+2025-03-05 11:46:02,954 [1] ERROR Test.SeleniumUtility - 点击下载按钮时发生错误: An unknown exception was encountered sending an HTTP request to the remote WebDriver server for URL http://localhost:64939/session/d17f1c2c3f7ff3c47428a429b4703386/execute/sync. The exception message was: 対象のコンピューターによって拒否されたため、接続できませんでした。 (localhost:64939)
+2025-03-05 11:46:07,121 [1] ERROR Test.SeleniumUtility - 点击下载按钮时发生错误: An unknown exception was encountered sending an HTTP request to the remote WebDriver server for URL http://localhost:64939/session/d17f1c2c3f7ff3c47428a429b4703386/execute/sync. The exception message was: 対象のコンピューターによって拒否されたため、接続できませんでした。 (localhost:64939)
+2025-03-05 11:46:11,300 [1] ERROR Test.SeleniumUtility - 点击下载按钮时发生错误: An unknown exception was encountered sending an HTTP request to the remote WebDriver server for URL http://localhost:64939/session/d17f1c2c3f7ff3c47428a429b4703386/execute/sync. The exception message was: 対象のコンピューターによって拒否されたため、接続できませんでした。 (localhost:64939)
+2025-03-05 11:46:15,676 [1] INFO  Test.SeleniumUtility - 没有找到下一页按钮或已到达最后一页
+2025-03-05 11:46:15,676 [1] INFO  Test.SeleniumUtility - 成功导航到账单下载页面
+2025-03-05 11:46:15,724 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 11:46:15,733 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-05 11:46:19,908 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-05 12:06:05,142 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-05 12:06:11,435 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 12:06:11,436 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-05 12:06:12,407 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-05 12:06:14,490 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 12:06:14,490 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-05 12:06:15,260 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-05 12:06:17,605 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 12:06:17,605 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-05 12:06:18,475 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-05 12:06:20,942 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 12:06:20,942 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-05 12:06:21,944 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-05 12:06:26,060 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-05 12:06:26,060 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-05 12:06:27,975 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 12:06:27,975 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 12:06:30,828 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 12:06:30,833 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 12:06:31,057 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 12:06:31,057 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 12:06:31,062 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 12:06:31,067 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 12:06:31,073 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 12:06:31,078 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 12:06:31,084 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-05 12:06:31,087 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-05 12:06:31,094 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-05 12:06:31,211 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-05 12:06:46,190 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-05 12:06:47,458 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-05 12:09:16,618 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-05 12:09:16,660 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-05 12:09:19,669 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-05 12:10:07,221 [1] INFO  Test.SeleniumUtility - 已点击 'Billing and Cost Management' 链接
+2025-03-05 12:10:10,225 [1] INFO  Test.SeleniumUtility - 等待 '支払い' 链接可点击...
+2025-03-05 12:10:41,371 [1] ERROR Test.SeleniumUtility - 导航到账单下载页面时发生错误
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 30 seconds
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"支払い"}
+  (Session info: MicrosoftEdge=133.0.3065.92)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementExists>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Test.SeleniumUtility.downloadInvoice(IWebDriver driver) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 148
+2025-03-05 12:10:41,957 [1] ERROR Test.Form1 - 导航到账单下载页面失败
+System.Exception: 导航失败: Timed out after 30 seconds
+   at Test.SeleniumUtility.downloadInvoice(IWebDriver driver) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 301
+   at Test.Form1.btnDateRange_Click(Object sender, EventArgs e) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\Form1.cs:line 436
+2025-03-05 12:10:49,217 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 12:11:03,933 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-05 12:11:08,135 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-05 12:23:57,191 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-05 12:24:01,115 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 12:24:01,116 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-05 12:24:02,150 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-05 12:24:04,692 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 12:24:04,692 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-05 12:24:05,588 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-05 12:24:07,692 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 12:24:07,692 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-05 12:24:09,094 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-05 12:24:12,007 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 12:24:12,007 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-05 12:24:12,857 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-05 12:24:16,262 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-05 12:24:16,262 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-05 12:24:17,751 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 12:24:17,752 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 12:24:18,024 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 12:24:18,029 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 12:24:18,139 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 12:24:18,139 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 12:24:18,144 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 12:24:18,149 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 12:24:18,153 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 12:24:18,158 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 12:24:18,163 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-05 12:24:18,165 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-05 12:24:18,169 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-05 12:24:18,172 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-05 12:24:23,307 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-05 12:24:27,079 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-05 12:40:10,257 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-05 12:40:10,290 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-05 12:40:13,303 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-05 12:40:23,504 [1] INFO  Test.SeleniumUtility - 已点击 'Billing and Cost Management' 链接
+2025-03-05 12:40:26,516 [1] INFO  Test.SeleniumUtility - 等待 '支払い' 链接可点击...
+2025-03-05 12:40:57,604 [1] INFO  Test.SeleniumUtility - 已点击 '支払い' 链接
+2025-03-05 12:41:00,612 [1] INFO  Test.SeleniumUtility - 等待 '取引' tab可点击...
+2025-03-05 12:41:01,054 [1] INFO  Test.SeleniumUtility - 已点击 '取引' tab
+2025-03-05 12:41:01,054 [1] INFO  Test.SeleniumUtility - 等待用户菜单可点击...
+2025-03-05 12:41:01,182 [1] INFO  Test.SeleniumUtility - 等待'ロールの切り替え'选项可点击...
+2025-03-05 12:41:10,720 [1] INFO  Test.SeleniumUtility - 输入账户ID...
+2025-03-05 12:41:11,412 [1] INFO  Test.SeleniumUtility - 输入IAM角色名...
+2025-03-05 12:41:11,745 [1] INFO  Test.SeleniumUtility - 点击'ロールの切り替え'按钮...
+2025-03-05 12:41:14,821 [1] INFO  Test.SeleniumUtility - 等待日期范围控件可点击...
+2025-03-05 12:41:19,276 [1] INFO  Test.SeleniumUtility - 已点击日期范围控件
+2025-03-05 12:41:22,291 [1] INFO  Test.SeleniumUtility - 定位日期输入框...
+2025-03-05 12:41:22,330 [1] INFO  Test.SeleniumUtility - 输入起始日期: 2024/02/04
+2025-03-05 12:41:22,828 [1] INFO  Test.SeleniumUtility - 输入结束日期: 2025/03/04
+2025-03-05 12:41:23,198 [1] INFO  Test.SeleniumUtility - 点击適用按钮...
+2025-03-05 12:41:23,330 [1] INFO  Test.SeleniumUtility - 已点击適用按钮
+2025-03-05 12:41:26,331 [1] INFO  Test.SeleniumUtility - 定位发票下载按钮...
+2025-03-05 12:41:26,435 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 2068236385 をダウンロード
+2025-03-05 12:41:26,470 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 12:41:29,570 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 12:41:29,656 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 2030786873 をダウンロード
+2025-03-05 12:41:29,718 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 12:41:31,765 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 12:41:31,866 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1994404497 をダウンロード
+2025-03-05 12:41:31,934 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 12:41:45,779 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 12:41:45,802 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1949882401 をダウンロード
+2025-03-05 12:41:45,844 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 12:41:46,367 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 12:41:46,406 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1909209437 をダウンロード
+2025-03-05 12:41:46,467 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 12:41:46,987 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 12:41:47,004 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1874162729 をダウンロード
+2025-03-05 12:41:47,039 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 12:41:48,123 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 12:41:48,165 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1842041197 をダウンロード
+2025-03-05 12:41:48,227 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 12:41:48,743 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 12:41:48,884 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1803686865 をダウンロード
+2025-03-05 12:41:49,004 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 12:41:49,524 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 12:41:49,625 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1753065217 をダウンロード
+2025-03-05 12:41:49,689 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 12:41:50,720 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 12:41:50,751 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1716738281 をダウンロード
+2025-03-05 12:41:50,806 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 12:41:51,320 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 12:41:51,350 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1682793633 をダウンロード
+2025-03-05 12:41:51,401 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 12:41:52,418 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 12:41:52,446 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1659550853 をダウンロード
+2025-03-05 12:41:52,490 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 12:41:53,004 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 12:41:53,063 [1] INFO  Test.SeleniumUtility - 点击下一页按钮
+2025-03-05 12:41:56,171 [1] INFO  Test.SeleniumUtility - 定位发票下载按钮...
+2025-03-05 12:41:56,210 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1646441533 をダウンロード
+2025-03-05 12:41:56,241 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 12:41:58,307 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 12:41:58,440 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1608473225 をダウンロード
+2025-03-05 12:41:58,475 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 12:41:59,009 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 12:41:59,035 [1] INFO  Test.SeleniumUtility - 已到达最后一页
+2025-03-05 12:41:59,036 [1] INFO  Test.SeleniumUtility - 成功导航到账单下载页面
+2025-03-05 12:42:07,854 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 12:49:18,741 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-05 12:49:23,031 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-05 14:08:58,095 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-05 14:09:09,874 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 14:09:09,876 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-05 14:09:10,173 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-05 14:09:12,351 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 14:09:12,351 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-05 14:09:13,083 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-05 14:09:14,826 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 14:09:14,826 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-05 14:09:15,483 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-05 14:09:18,072 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 14:09:18,073 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-05 14:09:19,179 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-05 14:09:21,600 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download
+2025-03-05 14:09:21,600 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-05 14:09:23,430 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-05 14:09:27,073 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload
+2025-03-05 14:09:27,073 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-05 14:09:30,820 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 14:09:30,820 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 14:09:41,545 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 14:09:41,587 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 14:09:42,176 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 14:09:42,176 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 14:09:42,218 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 14:09:42,223 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 14:09:42,228 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 14:09:42,233 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 14:09:42,420 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-05 14:09:42,442 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-05 14:09:42,447 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-05 14:09:42,791 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-05 14:10:08,901 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-05 14:10:12,015 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-05 14:12:06,922 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-05 14:12:07,009 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-05 14:12:10,024 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-05 14:12:24,203 [1] INFO  Test.SeleniumUtility - 已点击 'Billing and Cost Management' 链接
+2025-03-05 14:12:27,205 [1] INFO  Test.SeleniumUtility - 等待 '支払い' 链接可点击...
+2025-03-05 14:12:54,908 [1] INFO  Test.SeleniumUtility - 已点击 '支払い' 链接
+2025-03-05 14:12:57,918 [1] INFO  Test.SeleniumUtility - 等待 '取引' tab可点击...
+2025-03-05 14:12:58,424 [1] INFO  Test.SeleniumUtility - 已点击 '取引' tab
+2025-03-05 14:12:58,424 [1] INFO  Test.SeleniumUtility - 等待用户菜单可点击...
+2025-03-05 14:12:58,549 [1] INFO  Test.SeleniumUtility - 等待'ロールの切り替え'选项可点击...
+2025-03-05 14:13:14,293 [1] INFO  Test.SeleniumUtility - 输入账户ID...
+2025-03-05 14:13:15,201 [1] INFO  Test.SeleniumUtility - 输入IAM角色名...
+2025-03-05 14:13:15,561 [1] INFO  Test.SeleniumUtility - 点击'ロールの切り替え'按钮...
+2025-03-05 14:13:18,608 [1] INFO  Test.SeleniumUtility - 等待日期范围控件可点击...
+2025-03-05 14:13:29,409 [1] INFO  Test.SeleniumUtility - 已点击日期范围控件
+2025-03-05 14:13:32,417 [1] INFO  Test.SeleniumUtility - 定位日期输入框...
+2025-03-05 14:13:32,468 [1] INFO  Test.SeleniumUtility - 输入起始日期: 2024/02/04
+2025-03-05 14:13:33,059 [1] INFO  Test.SeleniumUtility - 输入结束日期: 2025/03/04
+2025-03-05 14:13:33,441 [1] INFO  Test.SeleniumUtility - 点击適用按钮...
+2025-03-05 14:13:33,591 [1] INFO  Test.SeleniumUtility - 已点击適用按钮
+2025-03-05 14:13:36,594 [1] INFO  Test.SeleniumUtility - 定位发票下载按钮...
+2025-03-05 14:13:36,760 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 2068236385 をダウンロード
+2025-03-05 14:13:36,796 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:13:42,952 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 14:13:42,972 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 2030786873 をダウンロード
+2025-03-05 14:13:43,016 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:13:44,548 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 14:13:44,564 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1994404497 をダウンロード
+2025-03-05 14:13:44,599 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:13:49,782 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 14:13:49,899 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1949882401 をダウンロード
+2025-03-05 14:13:49,967 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:13:50,997 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 14:13:51,012 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1909209437 をダウンロード
+2025-03-05 14:13:51,045 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:13:52,078 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 14:13:52,141 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1874162729 をダウンロード
+2025-03-05 14:13:52,203 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:13:52,721 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 14:13:52,744 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1842041197 をダウンロード
+2025-03-05 14:13:52,874 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:13:53,437 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 14:13:53,511 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1803686865 をダウンロード
+2025-03-05 14:13:53,662 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:13:54,692 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 14:13:54,825 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1753065217 をダウンロード
+2025-03-05 14:13:54,948 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:13:55,459 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 14:13:55,505 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1716738281 をダウンロード
+2025-03-05 14:13:55,571 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:13:56,090 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 14:13:56,110 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1682793633 をダウンロード
+2025-03-05 14:13:56,243 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:13:57,356 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 14:13:57,606 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1659550853 をダウンロード
+2025-03-05 14:13:57,879 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:13:59,072 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 14:13:59,274 [1] INFO  Test.SeleniumUtility - 点击下一页按钮
+2025-03-05 14:14:02,623 [1] INFO  Test.SeleniumUtility - 定位发票下载按钮...
+2025-03-05 14:14:02,765 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1646441533 をダウンロード
+2025-03-05 14:14:02,882 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:14:05,451 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 14:14:05,480 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1608473225 をダウンロード
+2025-03-05 14:14:05,522 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:14:05,526 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 14:14:05,591 [1] INFO  Test.SeleniumUtility - 已到达最后一页
+2025-03-05 14:14:05,592 [1] INFO  Test.SeleniumUtility - 成功导航到账单下载页面
+2025-03-05 14:27:07,470 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 14:27:09,412 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-05 14:27:13,796 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-05 14:28:03,358 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-05 14:28:16,520 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-05 14:28:17,854 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-05 14:28:21,167 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-05 14:28:21,948 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-05 14:28:23,640 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload
+2025-03-05 14:28:23,641 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-05 14:28:24,654 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-05 14:28:29,276 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 14:28:29,276 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-05 14:28:29,906 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-05 14:28:33,821 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 14:28:33,821 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-05 14:28:34,619 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-05 14:28:37,866 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 14:28:37,866 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-05 14:28:38,468 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-05 14:28:40,997 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 14:28:40,997 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-05 14:28:42,657 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 14:28:42,657 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 14:28:43,246 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 14:28:43,250 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 14:28:43,523 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 14:28:43,523 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 14:28:43,574 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 14:28:43,580 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 14:28:43,586 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 14:28:43,592 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 14:28:43,597 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-05 14:28:43,598 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-05 14:28:43,604 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-05 14:28:43,606 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-05 14:28:55,712 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-05 14:29:02,202 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-05 14:30:24,360 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-05 14:30:24,443 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-05 14:30:27,453 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-05 14:30:38,538 [1] INFO  Test.SeleniumUtility - 已点击 'Billing and Cost Management' 链接
+2025-03-05 14:30:41,566 [1] INFO  Test.SeleniumUtility - 等待 '支払い' 链接可点击...
+2025-03-05 14:31:04,508 [1] INFO  Test.SeleniumUtility - 已点击 '支払い' 链接
+2025-03-05 14:31:07,519 [1] INFO  Test.SeleniumUtility - 等待 '取引' tab可点击...
+2025-03-05 14:31:07,910 [1] INFO  Test.SeleniumUtility - 已点击 '取引' tab
+2025-03-05 14:31:07,910 [1] INFO  Test.SeleniumUtility - 等待用户菜单可点击...
+2025-03-05 14:31:08,026 [1] INFO  Test.SeleniumUtility - 等待'ロールの切り替え'选项可点击...
+2025-03-05 14:31:17,917 [1] INFO  Test.SeleniumUtility - 输入账户ID...
+2025-03-05 14:31:18,239 [1] INFO  Test.SeleniumUtility - 输入IAM角色名...
+2025-03-05 14:31:18,563 [1] INFO  Test.SeleniumUtility - 点击'ロールの切り替え'按钮...
+2025-03-05 14:31:21,601 [1] INFO  Test.SeleniumUtility - 等待日期范围控件可点击...
+2025-03-05 14:31:26,616 [1] INFO  Test.SeleniumUtility - 已点击日期范围控件
+2025-03-05 14:31:29,621 [1] INFO  Test.SeleniumUtility - 定位日期输入框...
+2025-03-05 14:31:29,644 [1] INFO  Test.SeleniumUtility - 输入起始日期: 2024/02/04
+2025-03-05 14:31:30,172 [1] INFO  Test.SeleniumUtility - 输入结束日期: 2025/03/04
+2025-03-05 14:31:30,596 [1] INFO  Test.SeleniumUtility - 点击適用按钮...
+2025-03-05 14:31:30,730 [1] INFO  Test.SeleniumUtility - 已点击適用按钮
+2025-03-05 14:31:33,741 [1] INFO  Test.SeleniumUtility - 定位发票下载按钮...
+2025-03-05 14:31:33,784 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 2068236385 をダウンロード
+2025-03-05 14:31:33,820 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:32:33,914 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 14:32:34,316 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 2030786873 をダウンロード
+2025-03-05 14:32:35,015 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:33:35,120 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 14:33:35,137 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1994404497 をダウンロード
+2025-03-05 14:33:35,174 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:34:35,449 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 14:34:35,483 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1949882401 をダウンロード
+2025-03-05 14:34:35,616 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:35:35,855 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 14:35:35,873 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1909209437 をダウンロード
+2025-03-05 14:35:35,906 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:36:36,252 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 14:36:36,269 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1874162729 をダウンロード
+2025-03-05 14:36:36,302 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:37:36,386 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 14:37:36,402 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 請求書 1842041197 をダウンロード
+2025-03-05 14:37:36,437 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:38:36,554 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 14:38:40,699 [1] ERROR Test.SeleniumUtility - 点击下载按钮时发生错误: An unknown exception was encountered sending an HTTP request to the remote WebDriver server for URL http://localhost:63384/session/0d3d95adc28a37aae6ff9928f8018dbb/execute/sync. The exception message was: 対象のコンピューターによって拒否されたため、接続できませんでした。 (localhost:63384)
+2025-03-05 14:38:44,837 [1] ERROR Test.SeleniumUtility - 点击下载按钮时发生错误: An unknown exception was encountered sending an HTTP request to the remote WebDriver server for URL http://localhost:63384/session/0d3d95adc28a37aae6ff9928f8018dbb/execute/sync. The exception message was: 対象のコンピューターによって拒否されたため、接続できませんでした。 (localhost:63384)
+2025-03-05 14:38:48,960 [1] ERROR Test.SeleniumUtility - 点击下载按钮时发生错误: An unknown exception was encountered sending an HTTP request to the remote WebDriver server for URL http://localhost:63384/session/0d3d95adc28a37aae6ff9928f8018dbb/execute/sync. The exception message was: 対象のコンピューターによって拒否されたため、接続できませんでした。 (localhost:63384)
+2025-03-05 14:38:53,098 [1] ERROR Test.SeleniumUtility - 点击下载按钮时发生错误: An unknown exception was encountered sending an HTTP request to the remote WebDriver server for URL http://localhost:63384/session/0d3d95adc28a37aae6ff9928f8018dbb/execute/sync. The exception message was: 対象のコンピューターによって拒否されたため、接続できませんでした。 (localhost:63384)
+2025-03-05 14:38:57,217 [1] ERROR Test.SeleniumUtility - 点击下载按钮时发生错误: An unknown exception was encountered sending an HTTP request to the remote WebDriver server for URL http://localhost:63384/session/0d3d95adc28a37aae6ff9928f8018dbb/execute/sync. The exception message was: 対象のコンピューターによって拒否されたため、接続できませんでした。 (localhost:63384)
+2025-03-05 14:39:01,371 [1] INFO  Test.SeleniumUtility - 没有找到下一页按钮或已到达最后一页
+2025-03-05 14:39:01,371 [1] INFO  Test.SeleniumUtility - 成功导航到账单下载页面
+2025-03-05 14:39:02,953 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 14:39:06,250 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-05 14:39:10,421 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-05 14:46:04,342 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-05 14:46:08,615 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 14:46:08,616 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-05 14:46:09,751 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-05 14:46:13,101 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 14:46:13,102 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-05 14:46:13,829 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-05 14:46:16,018 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 14:46:16,018 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-05 14:46:16,985 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-05 14:46:19,983 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 14:46:19,983 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-05 14:46:21,141 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-05 14:46:25,590 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload
+2025-03-05 14:46:25,590 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-05 14:46:26,989 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 14:46:26,989 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 14:46:27,302 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 14:46:27,307 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 14:46:27,427 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 14:46:27,427 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 14:46:27,434 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 14:46:27,439 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 14:46:27,443 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 14:46:27,450 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 14:46:27,456 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-05 14:46:27,458 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-05 14:46:27,464 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-05 14:46:27,468 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-05 14:46:33,462 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-05 14:46:42,199 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-05 14:48:16,307 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-05 14:48:16,553 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-05 14:48:19,564 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-05 14:48:31,621 [1] INFO  Test.SeleniumUtility - 已点击 'Billing and Cost Management' 链接
+2025-03-05 14:48:34,633 [1] INFO  Test.SeleniumUtility - 等待 '支払い' 链接可点击...
+2025-03-05 14:48:55,867 [1] INFO  Test.SeleniumUtility - 已点击 '支払い' 链接
+2025-03-05 14:48:58,870 [1] INFO  Test.SeleniumUtility - 等待 '取引' tab可点击...
+2025-03-05 14:48:59,456 [1] INFO  Test.SeleniumUtility - 已点击 '取引' tab
+2025-03-05 14:48:59,456 [1] INFO  Test.SeleniumUtility - 等待用户菜单可点击...
+2025-03-05 14:48:59,572 [1] INFO  Test.SeleniumUtility - 等待'ロールの切り替え'选项可点击...
+2025-03-05 14:49:09,261 [1] INFO  Test.SeleniumUtility - 输入账户ID...
+2025-03-05 14:49:09,705 [1] INFO  Test.SeleniumUtility - 输入IAM角色名...
+2025-03-05 14:49:10,032 [1] INFO  Test.SeleniumUtility - 点击'ロールの切り替え'按钮...
+2025-03-05 14:49:13,184 [1] INFO  Test.SeleniumUtility - 等待日期范围控件可点击...
+2025-03-05 14:49:19,639 [1] INFO  Test.SeleniumUtility - 已点击日期范围控件
+2025-03-05 14:49:22,645 [1] INFO  Test.SeleniumUtility - 定位日期输入框...
+2025-03-05 14:49:22,667 [1] INFO  Test.SeleniumUtility - 输入起始日期: 2024/02/04
+2025-03-05 14:49:23,276 [1] INFO  Test.SeleniumUtility - 输入结束日期: 2025/03/04
+2025-03-05 14:49:23,620 [1] INFO  Test.SeleniumUtility - 点击適用按钮...
+2025-03-05 14:49:23,768 [1] INFO  Test.SeleniumUtility - 已点击適用按钮
+2025-03-05 14:49:26,773 [1] INFO  Test.SeleniumUtility - 定位发票下载按钮...
+2025-03-05 14:49:26,866 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 2068236385
+2025-03-05 14:49:26,900 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:50:27,148 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 14:50:27,169 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 2030786873
+2025-03-05 14:50:27,205 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:51:27,386 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 14:51:27,403 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1994404497
+2025-03-05 14:51:27,437 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:52:27,558 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 14:52:27,575 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1949882401
+2025-03-05 14:52:27,611 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:53:27,939 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 14:53:27,957 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1909209437
+2025-03-05 14:53:27,992 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:54:28,003 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 14:54:28,019 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1874162729
+2025-03-05 14:54:28,060 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:55:28,081 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 14:55:28,121 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1842041197
+2025-03-05 14:55:28,161 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:56:28,163 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 14:56:28,178 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1803686865
+2025-03-05 14:56:28,215 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:57:28,685 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 14:57:28,707 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1753065217
+2025-03-05 14:57:28,746 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:58:29,184 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 14:58:29,199 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1716738281
+2025-03-05 14:58:29,242 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 14:59:29,264 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 14:59:29,281 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1682793633
+2025-03-05 14:59:29,315 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:00:29,495 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:00:29,516 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1659550853
+2025-03-05 15:00:29,549 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:01:29,904 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:01:29,982 [1] INFO  Test.SeleniumUtility - 点击下一页按钮
+2025-03-05 15:01:33,204 [1] INFO  Test.SeleniumUtility - 定位发票下载按钮...
+2025-03-05 15:01:33,240 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1646441533
+2025-03-05 15:01:33,268 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:02:33,530 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:02:33,552 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1608473225
+2025-03-05 15:02:33,581 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:03:33,885 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:03:33,914 [1] INFO  Test.SeleniumUtility - 已到达最后一页
+2025-03-05 15:03:33,914 [1] INFO  Test.SeleniumUtility - 成功导航到账单下载页面
+2025-03-05 15:04:53,305 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 15:08:40,118 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-05 15:08:44,513 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-05 15:10:02,627 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-05 15:10:15,925 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 15:10:15,926 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-05 15:10:16,811 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-05 15:10:29,166 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 15:10:29,166 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-05 15:10:30,038 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-05 15:10:33,179 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 15:10:33,179 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-05 15:10:33,901 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-05 15:10:37,156 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 15:10:37,156 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-05 15:10:38,144 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-05 15:10:41,908 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload
+2025-03-05 15:10:41,908 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-05 15:10:42,835 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 15:10:42,835 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 15:10:43,519 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 15:10:43,524 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 15:10:43,771 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 15:10:43,771 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 15:10:43,776 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 15:10:43,782 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 15:10:43,787 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 15:10:43,792 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 15:10:43,797 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-05 15:10:43,798 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-05 15:10:43,803 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-05 15:10:43,805 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-05 15:10:57,931 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-05 15:11:02,684 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-05 15:12:20,243 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-05 15:12:20,340 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-05 15:12:23,340 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-05 15:12:37,524 [1] INFO  Test.SeleniumUtility - 已点击 'Billing and Cost Management' 链接
+2025-03-05 15:12:40,533 [1] INFO  Test.SeleniumUtility - 等待 '支払い' 链接可点击...
+2025-03-05 15:13:12,156 [1] INFO  Test.SeleniumUtility - 已点击 '支払い' 链接
+2025-03-05 15:13:15,161 [1] INFO  Test.SeleniumUtility - 等待 '取引' tab可点击...
+2025-03-05 15:13:15,610 [1] INFO  Test.SeleniumUtility - 已点击 '取引' tab
+2025-03-05 15:13:15,611 [1] INFO  Test.SeleniumUtility - 等待用户菜单可点击...
+2025-03-05 15:13:15,730 [1] INFO  Test.SeleniumUtility - 等待'ロールの切り替え'选项可点击...
+2025-03-05 15:13:26,313 [1] INFO  Test.SeleniumUtility - 输入账户ID...
+2025-03-05 15:13:26,703 [1] INFO  Test.SeleniumUtility - 输入IAM角色名...
+2025-03-05 15:13:27,237 [1] INFO  Test.SeleniumUtility - 点击'ロールの切り替え'按钮...
+2025-03-05 15:13:30,292 [1] INFO  Test.SeleniumUtility - 等待日期范围控件可点击...
+2025-03-05 15:13:37,061 [1] INFO  Test.SeleniumUtility - 已点击日期范围控件
+2025-03-05 15:13:40,065 [1] INFO  Test.SeleniumUtility - 定位日期输入框...
+2025-03-05 15:13:40,088 [1] INFO  Test.SeleniumUtility - 输入起始日期: 2024/02/04
+2025-03-05 15:13:40,528 [1] INFO  Test.SeleniumUtility - 输入结束日期: 2025/03/04
+2025-03-05 15:13:40,905 [1] INFO  Test.SeleniumUtility - 点击適用按钮...
+2025-03-05 15:13:41,077 [1] INFO  Test.SeleniumUtility - 已点击適用按钮
+2025-03-05 15:13:44,090 [1] INFO  Test.SeleniumUtility - 定位发票下载按钮...
+2025-03-05 15:13:44,135 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 2068236385
+2025-03-05 15:13:44,171 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:13:54,438 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:13:54,457 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 2030786873
+2025-03-05 15:13:54,490 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:14:04,754 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:14:04,769 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1994404497
+2025-03-05 15:14:04,803 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:14:15,053 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:14:15,067 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1949882401
+2025-03-05 15:14:15,103 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:14:25,380 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:14:25,396 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1909209437
+2025-03-05 15:14:25,427 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:14:35,676 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:14:35,693 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1874162729
+2025-03-05 15:14:35,728 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:14:45,983 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:14:45,998 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1842041197
+2025-03-05 15:14:46,039 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:14:56,292 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:14:56,308 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1803686865
+2025-03-05 15:14:56,345 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:15:06,645 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:15:06,660 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1753065217
+2025-03-05 15:15:06,699 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:15:16,969 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:15:16,984 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1716738281
+2025-03-05 15:15:17,016 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:15:27,363 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:15:27,379 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1682793633
+2025-03-05 15:15:27,414 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:15:37,677 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:15:37,695 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1659550853
+2025-03-05 15:15:37,731 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:15:47,998 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:15:48,035 [1] INFO  Test.SeleniumUtility - 点击下一页按钮
+2025-03-05 15:15:51,167 [1] INFO  Test.SeleniumUtility - 定位发票下载按钮...
+2025-03-05 15:15:51,195 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1646441533
+2025-03-05 15:15:51,224 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:16:01,481 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:16:01,497 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1608473225
+2025-03-05 15:16:01,530 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:16:11,858 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:16:11,888 [1] INFO  Test.SeleniumUtility - 已到达最后一页
+2025-03-05 15:16:11,889 [1] INFO  Test.SeleniumUtility - 成功导航到账单下载页面
+2025-03-05 15:16:24,696 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 15:35:37,043 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-05 15:35:41,966 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-05 15:50:33,365 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-05 15:50:45,002 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 15:50:45,004 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-05 15:50:45,624 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-05 15:50:48,013 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 15:50:48,014 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-05 15:50:48,662 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-05 15:50:50,998 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 15:50:50,999 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-05 15:50:51,807 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-05 15:50:57,354 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 15:50:57,354 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-05 15:50:58,664 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-05 15:51:02,981 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload
+2025-03-05 15:51:02,981 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-05 15:51:06,075 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 15:51:06,076 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 15:51:13,885 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 15:51:13,903 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 15:51:14,268 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 15:51:14,268 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 15:51:14,312 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 15:51:14,317 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 15:51:14,322 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 15:51:14,328 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 15:51:14,356 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-05 15:51:14,448 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-05 15:51:14,545 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-05 15:51:14,952 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-05 15:51:40,798 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-05 15:51:44,657 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-05 15:53:10,362 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-05 15:53:10,400 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-05 15:53:13,402 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-05 15:53:30,244 [1] INFO  Test.SeleniumUtility - 已点击 'Billing and Cost Management' 链接
+2025-03-05 15:53:33,251 [1] INFO  Test.SeleniumUtility - 等待 '支払い' 链接可点击...
+2025-03-05 15:53:59,855 [1] INFO  Test.SeleniumUtility - 已点击 '支払い' 链接
+2025-03-05 15:54:02,856 [1] INFO  Test.SeleniumUtility - 等待 '取引' tab可点击...
+2025-03-05 15:54:03,511 [1] INFO  Test.SeleniumUtility - 已点击 '取引' tab
+2025-03-05 15:54:03,561 [1] INFO  Test.SeleniumUtility - 等待用户菜单可点击...
+2025-03-05 15:54:03,671 [1] INFO  Test.SeleniumUtility - 等待'ロールの切り替え'选项可点击...
+2025-03-05 15:54:12,260 [1] INFO  Test.SeleniumUtility - 输入账户ID...
+2025-03-05 15:54:15,600 [1] INFO  Test.SeleniumUtility - 输入IAM角色名...
+2025-03-05 15:54:16,192 [1] INFO  Test.SeleniumUtility - 点击'ロールの切り替え'按钮...
+2025-03-05 15:54:19,247 [1] INFO  Test.SeleniumUtility - 等待日期范围控件可点击...
+2025-03-05 15:54:26,785 [1] INFO  Test.SeleniumUtility - 已点击日期范围控件
+2025-03-05 15:54:29,792 [1] INFO  Test.SeleniumUtility - 定位日期输入框...
+2025-03-05 15:54:30,175 [1] INFO  Test.SeleniumUtility - 输入起始日期: 2024/02/04
+2025-03-05 15:54:31,549 [1] INFO  Test.SeleniumUtility - 输入结束日期: 2025/03/04
+2025-03-05 15:54:31,923 [1] INFO  Test.SeleniumUtility - 点击適用按钮...
+2025-03-05 15:54:32,558 [1] INFO  Test.SeleniumUtility - 已点击適用按钮
+2025-03-05 15:54:35,562 [1] INFO  Test.SeleniumUtility - 定位发票下载按钮...
+2025-03-05 15:54:35,667 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 2068236385
+2025-03-05 15:54:35,739 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:54:40,838 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:54:40,839 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 15:54:41,417 [1] ERROR Test.ExcelUtility - 写入下载历史时发生错误
+System.IO.IOException: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Packaging.ZipPackage..ctor(String path, FileMode packageFileMode, FileAccess packageFileAccess, FileShare share)
+   at System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare)
+   at DocumentFormat.OpenXml.Packaging.PackageLoader.OpenCore(String path, Boolean readWriteMode)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at Test.ExcelUtility.WriteDownloadHistory(String reportId, String result, String historyFilePath) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 395
+2025-03-05 15:54:45,822 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 2030786873
+2025-03-05 15:54:45,867 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:54:50,989 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:54:50,989 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 15:54:50,992 [1] ERROR Test.ExcelUtility - 写入下载历史时发生错误
+System.IO.IOException: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Packaging.ZipPackage..ctor(String path, FileMode packageFileMode, FileAccess packageFileAccess, FileShare share)
+   at System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare)
+   at DocumentFormat.OpenXml.Packaging.PackageLoader.OpenCore(String path, Boolean readWriteMode)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at Test.ExcelUtility.WriteDownloadHistory(String reportId, String result, String historyFilePath) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 395
+2025-03-05 15:54:51,273 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1994404497
+2025-03-05 15:54:51,333 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:54:56,449 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:54:56,449 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 15:54:56,450 [1] ERROR Test.ExcelUtility - 写入下载历史时发生错误
+System.IO.IOException: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Packaging.ZipPackage..ctor(String path, FileMode packageFileMode, FileAccess packageFileAccess, FileShare share)
+   at System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare)
+   at DocumentFormat.OpenXml.Packaging.PackageLoader.OpenCore(String path, Boolean readWriteMode)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at Test.ExcelUtility.WriteDownloadHistory(String reportId, String result, String historyFilePath) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 395
+2025-03-05 15:54:56,467 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1949882401
+2025-03-05 15:54:56,499 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:55:01,613 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:55:01,613 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 15:55:01,614 [1] ERROR Test.ExcelUtility - 写入下载历史时发生错误
+System.IO.IOException: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Packaging.ZipPackage..ctor(String path, FileMode packageFileMode, FileAccess packageFileAccess, FileShare share)
+   at System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare)
+   at DocumentFormat.OpenXml.Packaging.PackageLoader.OpenCore(String path, Boolean readWriteMode)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at Test.ExcelUtility.WriteDownloadHistory(String reportId, String result, String historyFilePath) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 395
+2025-03-05 15:55:01,629 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1909209437
+2025-03-05 15:55:01,664 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:55:06,849 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:55:06,849 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 15:55:06,850 [1] ERROR Test.ExcelUtility - 写入下载历史时发生错误
+System.IO.IOException: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Packaging.ZipPackage..ctor(String path, FileMode packageFileMode, FileAccess packageFileAccess, FileShare share)
+   at System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare)
+   at DocumentFormat.OpenXml.Packaging.PackageLoader.OpenCore(String path, Boolean readWriteMode)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at Test.ExcelUtility.WriteDownloadHistory(String reportId, String result, String historyFilePath) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 395
+2025-03-05 15:55:06,866 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1874162729
+2025-03-05 15:55:06,900 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:55:12,055 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:55:12,055 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 15:55:12,056 [1] ERROR Test.ExcelUtility - 写入下载历史时发生错误
+System.IO.IOException: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Packaging.ZipPackage..ctor(String path, FileMode packageFileMode, FileAccess packageFileAccess, FileShare share)
+   at System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare)
+   at DocumentFormat.OpenXml.Packaging.PackageLoader.OpenCore(String path, Boolean readWriteMode)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at Test.ExcelUtility.WriteDownloadHistory(String reportId, String result, String historyFilePath) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 395
+2025-03-05 15:55:12,074 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1842041197
+2025-03-05 15:55:12,118 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:55:17,232 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:55:17,233 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 15:55:17,234 [1] ERROR Test.ExcelUtility - 写入下载历史时发生错误
+System.IO.IOException: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Packaging.ZipPackage..ctor(String path, FileMode packageFileMode, FileAccess packageFileAccess, FileShare share)
+   at System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare)
+   at DocumentFormat.OpenXml.Packaging.PackageLoader.OpenCore(String path, Boolean readWriteMode)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at Test.ExcelUtility.WriteDownloadHistory(String reportId, String result, String historyFilePath) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 395
+2025-03-05 15:55:17,249 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1803686865
+2025-03-05 15:55:17,280 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:55:22,543 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:55:22,543 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 15:55:22,545 [1] ERROR Test.ExcelUtility - 写入下载历史时发生错误
+System.IO.IOException: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Packaging.ZipPackage..ctor(String path, FileMode packageFileMode, FileAccess packageFileAccess, FileShare share)
+   at System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare)
+   at DocumentFormat.OpenXml.Packaging.PackageLoader.OpenCore(String path, Boolean readWriteMode)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at Test.ExcelUtility.WriteDownloadHistory(String reportId, String result, String historyFilePath) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 395
+2025-03-05 15:55:22,561 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1753065217
+2025-03-05 15:55:22,596 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:55:27,722 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:55:27,722 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 15:55:27,723 [1] ERROR Test.ExcelUtility - 写入下载历史时发生错误
+System.IO.IOException: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Packaging.ZipPackage..ctor(String path, FileMode packageFileMode, FileAccess packageFileAccess, FileShare share)
+   at System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare)
+   at DocumentFormat.OpenXml.Packaging.PackageLoader.OpenCore(String path, Boolean readWriteMode)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at Test.ExcelUtility.WriteDownloadHistory(String reportId, String result, String historyFilePath) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 395
+2025-03-05 15:55:27,736 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1716738281
+2025-03-05 15:55:27,765 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:55:32,860 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:55:32,860 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 15:55:32,860 [1] ERROR Test.ExcelUtility - 写入下载历史时发生错误
+System.IO.IOException: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Packaging.ZipPackage..ctor(String path, FileMode packageFileMode, FileAccess packageFileAccess, FileShare share)
+   at System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare)
+   at DocumentFormat.OpenXml.Packaging.PackageLoader.OpenCore(String path, Boolean readWriteMode)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at Test.ExcelUtility.WriteDownloadHistory(String reportId, String result, String historyFilePath) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 395
+2025-03-05 15:55:32,880 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1682793633
+2025-03-05 15:55:32,920 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:55:38,180 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:55:38,180 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 15:55:38,181 [1] ERROR Test.ExcelUtility - 写入下载历史时发生错误
+System.IO.IOException: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Packaging.ZipPackage..ctor(String path, FileMode packageFileMode, FileAccess packageFileAccess, FileShare share)
+   at System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare)
+   at DocumentFormat.OpenXml.Packaging.PackageLoader.OpenCore(String path, Boolean readWriteMode)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at Test.ExcelUtility.WriteDownloadHistory(String reportId, String result, String historyFilePath) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 395
+2025-03-05 15:55:38,230 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1659550853
+2025-03-05 15:55:38,264 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:55:43,379 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:55:43,379 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 15:55:43,380 [1] ERROR Test.ExcelUtility - 写入下载历史时发生错误
+System.IO.IOException: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Packaging.ZipPackage..ctor(String path, FileMode packageFileMode, FileAccess packageFileAccess, FileShare share)
+   at System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare)
+   at DocumentFormat.OpenXml.Packaging.PackageLoader.OpenCore(String path, Boolean readWriteMode)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at Test.ExcelUtility.WriteDownloadHistory(String reportId, String result, String historyFilePath) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 395
+2025-03-05 15:55:43,461 [1] INFO  Test.SeleniumUtility - 点击下一页按钮
+2025-03-05 15:55:46,592 [1] INFO  Test.SeleniumUtility - 定位发票下载按钮...
+2025-03-05 15:55:46,630 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1646441533
+2025-03-05 15:55:46,664 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:55:51,908 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:55:51,908 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 15:55:51,909 [1] ERROR Test.ExcelUtility - 写入下载历史时发生错误
+System.IO.IOException: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Packaging.ZipPackage..ctor(String path, FileMode packageFileMode, FileAccess packageFileAccess, FileShare share)
+   at System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare)
+   at DocumentFormat.OpenXml.Packaging.PackageLoader.OpenCore(String path, Boolean readWriteMode)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at Test.ExcelUtility.WriteDownloadHistory(String reportId, String result, String historyFilePath) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 395
+2025-03-05 15:55:52,101 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1608473225
+2025-03-05 15:55:52,146 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 15:55:57,267 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 15:55:57,267 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 15:55:57,268 [1] ERROR Test.ExcelUtility - 写入下载历史时发生错误
+System.IO.IOException: The process cannot access the file 'D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx' because it is being used by another process.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.Packaging.ZipPackage..ctor(String path, FileMode packageFileMode, FileAccess packageFileAccess, FileShare share)
+   at System.IO.Packaging.Package.Open(String path, FileMode packageMode, FileAccess packageAccess, FileShare packageShare)
+   at DocumentFormat.OpenXml.Packaging.PackageLoader.OpenCore(String path, Boolean readWriteMode)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable, OpenSettings openSettings)
+   at DocumentFormat.OpenXml.Packaging.SpreadsheetDocument.Open(String path, Boolean isEditable)
+   at Test.ExcelUtility.WriteDownloadHistory(String reportId, String result, String historyFilePath) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\ExcelUtility.cs:line 395
+2025-03-05 15:55:57,294 [1] INFO  Test.SeleniumUtility - 已到达最后一页
+2025-03-05 15:55:57,295 [1] INFO  Test.SeleniumUtility - 成功导航到账单下载页面
+2025-03-05 15:56:00,677 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 15:59:16,438 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 15:59:16,439 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 15:59:16,515 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 15:59:16,528 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 15:59:16,700 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 15:59:16,700 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 15:59:16,704 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 15:59:16,709 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 15:59:16,714 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 15:59:16,718 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 15:59:16,723 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-05 15:59:16,724 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-05 15:59:16,730 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-05 15:59:16,730 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-05 15:59:23,156 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-05 15:59:29,616 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-05 15:59:40,139 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-05 15:59:40,139 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-05 15:59:43,149 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-05 16:01:01,166 [1] ERROR Test.SeleniumUtility - 导航到账单下载页面时发生错误
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 30 seconds
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"partial link text","selector":"Billing"}
+  (Session info: MicrosoftEdge=133.0.3065.92)
+   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.WebDriver.FindElement(By by)
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementExists>b__0(IWebDriver driver)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   --- End of inner exception stack trace ---
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)
+   at Test.SeleniumUtility.downloadInvoice(IWebDriver driver, String myHistoryFilePath) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 127
+2025-03-05 16:01:02,171 [1] ERROR Test.Form1 - 导航到账单下载页面失败
+System.Exception: 导航失败: Timed out after 30 seconds
+   at Test.SeleniumUtility.downloadInvoice(IWebDriver driver, String myHistoryFilePath) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\SeleniumUtility.cs:line 306
+   at Test.Form1.btnDateRange_Click(Object sender, EventArgs e) in D:\NRIB_成果物\4.Invoiceダウンロード\CursorTest\Framework47\test\Form1.cs:line 436
+2025-03-05 16:01:14,813 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 16:01:34,438 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 16:01:34,439 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 16:01:34,443 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 16:01:34,448 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 16:01:34,493 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 16:01:34,493 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 16:01:34,498 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 16:01:34,505 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 16:01:34,509 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 16:01:34,515 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 16:01:34,519 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-05 16:01:34,520 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-05 16:01:34,524 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-05 16:01:34,524 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-05 16:01:39,206 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-05 16:01:42,513 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-05 16:03:06,569 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-05 16:03:06,570 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-05 16:03:09,574 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-05 16:03:21,544 [1] INFO  Test.SeleniumUtility - 已点击 'Billing and Cost Management' 链接
+2025-03-05 16:03:24,559 [1] INFO  Test.SeleniumUtility - 等待 '支払い' 链接可点击...
+2025-03-05 16:03:40,467 [1] INFO  Test.SeleniumUtility - 已点击 '支払い' 链接
+2025-03-05 16:03:43,469 [1] INFO  Test.SeleniumUtility - 等待 '取引' tab可点击...
+2025-03-05 16:03:44,045 [1] INFO  Test.SeleniumUtility - 已点击 '取引' tab
+2025-03-05 16:03:44,046 [1] INFO  Test.SeleniumUtility - 等待用户菜单可点击...
+2025-03-05 16:03:44,189 [1] INFO  Test.SeleniumUtility - 等待'ロールの切り替え'选项可点击...
+2025-03-05 16:03:52,739 [1] INFO  Test.SeleniumUtility - 输入账户ID...
+2025-03-05 16:03:53,020 [1] INFO  Test.SeleniumUtility - 输入IAM角色名...
+2025-03-05 16:03:53,339 [1] INFO  Test.SeleniumUtility - 点击'ロールの切り替え'按钮...
+2025-03-05 16:03:56,435 [1] INFO  Test.SeleniumUtility - 等待日期范围控件可点击...
+2025-03-05 16:04:01,508 [1] INFO  Test.SeleniumUtility - 已点击日期范围控件
+2025-03-05 16:04:04,512 [1] INFO  Test.SeleniumUtility - 定位日期输入框...
+2025-03-05 16:04:04,528 [1] INFO  Test.SeleniumUtility - 输入起始日期: 2024/02/04
+2025-03-05 16:04:04,992 [1] INFO  Test.SeleniumUtility - 输入结束日期: 2025/03/04
+2025-03-05 16:04:05,360 [1] INFO  Test.SeleniumUtility - 点击適用按钮...
+2025-03-05 16:04:05,475 [1] INFO  Test.SeleniumUtility - 已点击適用按钮
+2025-03-05 16:04:08,475 [1] INFO  Test.SeleniumUtility - 定位发票下载按钮...
+2025-03-05 16:04:08,515 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 2068236385
+2025-03-05 16:04:08,549 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 16:04:13,689 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 16:04:13,689 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:04:14,786 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 16:04:15,114 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 2030786873
+2025-03-05 16:04:15,145 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 16:04:20,300 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 16:04:20,300 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:04:20,306 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 16:04:20,336 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1994404497
+2025-03-05 16:04:20,369 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 16:04:25,533 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 16:04:25,533 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:04:25,539 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 16:04:25,568 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1949882401
+2025-03-05 16:04:25,599 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 16:04:30,705 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 16:04:30,705 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:04:30,711 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 16:04:30,739 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1909209437
+2025-03-05 16:04:30,771 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 16:04:35,906 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 16:04:35,906 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:04:35,912 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 16:04:35,941 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1874162729
+2025-03-05 16:04:35,978 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 16:04:41,172 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 16:04:41,172 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:04:41,182 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 16:04:41,272 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1842041197
+2025-03-05 16:04:41,303 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 16:04:46,472 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 16:04:46,472 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:04:46,478 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 16:04:46,505 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1803686865
+2025-03-05 16:04:46,539 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 16:04:51,699 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 16:04:51,699 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:04:51,705 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 16:04:51,738 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1753065217
+2025-03-05 16:04:51,771 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 16:04:56,872 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 16:04:56,872 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:04:56,878 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 16:04:56,906 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1716738281
+2025-03-05 16:04:56,944 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 16:05:02,082 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 16:05:02,083 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:05:02,088 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 16:05:02,115 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1682793633
+2025-03-05 16:05:02,145 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 16:05:07,278 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 16:05:07,278 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:05:07,284 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 16:05:07,310 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1659550853
+2025-03-05 16:05:07,347 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 16:05:12,509 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 16:05:12,510 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:05:12,515 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 16:05:12,558 [1] INFO  Test.SeleniumUtility - 点击下一页按钮
+2025-03-05 16:05:15,692 [1] INFO  Test.SeleniumUtility - 定位发票下载按钮...
+2025-03-05 16:05:15,722 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1646441533
+2025-03-05 16:05:15,748 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 16:05:20,859 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 16:05:20,859 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:05:20,865 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 16:05:20,894 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1608473225
+2025-03-05 16:05:20,921 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 16:05:26,048 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 16:05:26,048 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:05:26,055 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 16:05:26,095 [1] INFO  Test.SeleniumUtility - 已到达最后一页
+2025-03-05 16:05:26,095 [1] INFO  Test.SeleniumUtility - 成功导航到账单下载页面
+2025-03-05 16:05:28,894 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 16:11:22,806 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-05 16:11:26,999 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-05 16:12:05,260 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-05 16:12:15,462 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 16:12:15,466 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-05 16:12:16,312 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-05 16:12:18,892 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 16:12:18,892 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-05 16:12:20,498 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-05 16:12:22,903 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 16:12:22,903 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-05 16:12:23,783 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-05 16:12:29,711 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:12:29,711 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-05 16:12:30,616 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-05 16:12:34,639 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload
+2025-03-05 16:12:34,640 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-05 16:12:59,388 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 16:12:59,388 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 16:12:59,704 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 16:12:59,709 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 16:12:59,828 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 16:12:59,828 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 16:12:59,833 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 16:12:59,838 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 16:12:59,843 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 16:12:59,849 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 16:12:59,855 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, Status
+2025-03-05 16:12:59,856 [1] INFO  Test.Form1 - 筛选完成，删除了 12 行数据
+2025-03-05 16:12:59,861 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-05 16:12:59,863 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-05 16:13:04,655 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-05 16:13:07,697 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-05 16:14:27,911 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-05 16:14:27,920 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-05 16:14:30,922 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-05 16:14:39,641 [1] INFO  Test.SeleniumUtility - 已点击 'Billing and Cost Management' 链接
+2025-03-05 16:14:42,654 [1] INFO  Test.SeleniumUtility - 等待 '支払い' 链接可点击...
+2025-03-05 16:14:58,877 [1] INFO  Test.SeleniumUtility - 已点击 '支払い' 链接
+2025-03-05 16:15:01,880 [1] INFO  Test.SeleniumUtility - 等待 '取引' tab可点击...
+2025-03-05 16:15:02,340 [1] INFO  Test.SeleniumUtility - 已点击 '取引' tab
+2025-03-05 16:15:02,340 [1] INFO  Test.SeleniumUtility - 等待用户菜单可点击...
+2025-03-05 16:15:02,507 [1] INFO  Test.SeleniumUtility - 等待'ロールの切り替え'选项可点击...
+2025-03-05 16:15:11,650 [1] INFO  Test.SeleniumUtility - 输入账户ID...
+2025-03-05 16:15:11,945 [1] INFO  Test.SeleniumUtility - 输入IAM角色名...
+2025-03-05 16:15:12,287 [1] INFO  Test.SeleniumUtility - 点击'ロールの切り替え'按钮...
+2025-03-05 16:15:15,448 [1] INFO  Test.SeleniumUtility - 等待日期范围控件可点击...
+2025-03-05 16:15:20,750 [1] INFO  Test.SeleniumUtility - 已点击日期范围控件
+2025-03-05 16:15:23,763 [1] INFO  Test.SeleniumUtility - 定位日期输入框...
+2025-03-05 16:15:23,785 [1] INFO  Test.SeleniumUtility - 输入起始日期: 2024/02/04
+2025-03-05 16:15:24,473 [1] INFO  Test.SeleniumUtility - 输入结束日期: 2025/03/04
+2025-03-05 16:15:24,827 [1] INFO  Test.SeleniumUtility - 点击適用按钮...
+2025-03-05 16:15:24,996 [1] INFO  Test.SeleniumUtility - 已点击適用按钮
+2025-03-05 16:15:28,001 [1] INFO  Test.SeleniumUtility - 定位发票下载按钮...
+2025-03-05 16:15:28,066 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 2068236385
+2025-03-05 16:15:28,104 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 16:15:30,184 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_2068236385.pdf
+2025-03-05 16:15:30,184 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 16:15:30,187 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:15:30,271 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 16:15:30,428 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 2030786873
+2025-03-05 16:15:30,486 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 16:15:32,515 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_2030786873.pdf
+2025-03-05 16:15:32,515 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 16:15:32,515 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:15:32,526 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 16:15:32,673 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1994404497
+2025-03-05 16:15:32,837 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 16:15:35,398 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1994404497.pdf
+2025-03-05 16:15:35,398 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 16:15:35,398 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:15:35,425 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 16:15:35,490 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1949882401
+2025-03-05 16:15:35,609 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 16:15:37,187 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1949882401.pdf
+2025-03-05 16:15:37,188 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 16:15:37,188 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:15:37,198 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 16:15:37,279 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1909209437
+2025-03-05 16:15:37,337 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 16:15:40,414 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1909209437.pdf
+2025-03-05 16:15:40,414 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 16:15:40,415 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:15:40,427 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 16:15:40,485 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1874162729
+2025-03-05 16:15:40,570 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 16:15:43,265 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1874162729.pdf
+2025-03-05 16:15:43,265 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 16:15:43,265 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:15:43,274 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 16:15:43,301 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1842041197
+2025-03-05 16:15:43,341 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 16:15:45,380 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1842041197.pdf
+2025-03-05 16:15:45,381 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 16:15:45,381 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:15:45,396 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 16:15:45,462 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1803686865
+2025-03-05 16:15:45,515 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 16:15:47,061 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1803686865.pdf
+2025-03-05 16:15:47,061 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 16:15:47,061 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:15:47,070 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 16:15:47,118 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1753065217
+2025-03-05 16:15:47,167 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 16:15:49,263 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1753065217.pdf
+2025-03-05 16:15:49,264 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 16:15:49,266 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:15:49,281 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 16:15:49,375 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1716738281
+2025-03-05 16:15:49,538 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 16:15:51,612 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1716738281.pdf
+2025-03-05 16:15:51,612 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 16:15:51,612 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:15:51,627 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 16:15:51,679 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1682793633
+2025-03-05 16:15:51,817 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 16:15:53,349 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1682793633.pdf
+2025-03-05 16:15:53,349 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 16:15:53,350 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:15:53,361 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 16:15:53,401 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1659550853
+2025-03-05 16:15:53,453 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 16:15:55,510 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1659550853.pdf
+2025-03-05 16:15:55,510 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 16:15:55,510 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:15:55,530 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 16:15:55,610 [1] INFO  Test.SeleniumUtility - 点击下一页按钮
+2025-03-05 16:15:59,057 [1] INFO  Test.SeleniumUtility - 定位发票下载按钮...
+2025-03-05 16:15:59,085 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1646441533
+2025-03-05 16:15:59,128 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 16:16:01,197 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1646441533.pdf
+2025-03-05 16:16:01,197 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 16:16:01,197 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\check_download1.xlsx
+2025-03-05 16:16:01,211 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 16:16:01,298 [1] INFO  Test.SeleniumUtility - 已到达最后一页
+2025-03-05 16:16:01,298 [1] INFO  Test.SeleniumUtility - 成功导航到账单下载页面
+2025-03-05 16:16:33,491 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 16:23:22,229 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-05 16:23:25,775 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-05 18:11:44,117 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-05 18:11:50,812 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 18:11:50,813 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-05 18:11:51,600 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-05 18:11:55,041 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 18:11:55,041 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-05 18:11:55,824 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-05 18:11:59,146 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 18:11:59,146 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-05 18:11:59,972 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-05 18:12:06,365 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 18:12:06,365 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-05 18:12:07,643 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-05 18:12:17,062 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload
+2025-03-05 18:12:17,062 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-05 18:12:29,580 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 18:12:29,581 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 18:13:07,520 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 18:13:16,546 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 18:15:02,358 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 18:15:02,359 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 18:15:18,503 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 18:15:27,768 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 18:15:37,151 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 18:15:52,031 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 18:20:25,940 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 18:20:33,189 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 18:20:33,189 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 18:20:35,700 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 18:20:35,708 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 18:20:38,960 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 18:20:38,960 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 18:27:28,206 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 18:27:28,206 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 18:27:35,015 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 18:27:36,086 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 18:27:36,546 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 18:27:37,031 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 18:37:11,491 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 18:37:14,169 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 18:37:14,169 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 18:37:24,224 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 18:37:24,232 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 18:37:35,884 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 18:37:35,884 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 18:37:36,666 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 18:37:37,231 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 18:37:38,712 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 18:37:39,256 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 18:38:40,841 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, テナント名メイ, Status
+2025-03-05 18:38:41,185 [1] ERROR Test.Form1 - Download処理でエラーが発生しました。
+System.ArgumentException: Column 'テナント名メイ' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Test.Form1.<>c__DisplayClass7_2.<btnDateRange_Click>b__1(String columnName)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Test.Form1.<>c__DisplayClass7_1.<btnDateRange_Click>b__0(DataRow excludeRow)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Test.Form1.btnDateRange_Click(Object sender, EventArgs e)
+2025-03-05 18:42:24,200 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-05 18:42:30,586 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 18:42:30,588 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-05 18:42:31,708 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-05 18:42:34,385 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 18:42:34,385 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-05 18:42:35,236 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-05 18:42:37,744 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 18:42:37,744 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-05 18:42:38,420 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-05 18:42:42,286 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 18:42:42,287 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-05 18:42:43,577 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-05 18:42:47,187 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload
+2025-03-05 18:42:47,187 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-05 18:42:49,675 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 18:42:49,675 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 18:42:53,891 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 18:42:53,899 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 18:43:04,122 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 18:43:04,122 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 18:43:17,686 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 18:43:18,451 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 18:43:19,010 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 18:43:23,153 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 18:43:33,905 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, テナント名, Status
+2025-03-05 18:43:38,331 [1] INFO  Test.Form1 - 筛选完成，删除了 16 行数据
+2025-03-05 18:43:38,366 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-05 18:43:38,447 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-05 18:45:31,844 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-05 18:45:36,933 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 18:45:36,936 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-05 18:45:37,945 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-05 18:45:41,695 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 18:45:41,695 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-05 18:45:42,592 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-05 18:45:48,014 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 18:45:48,014 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-05 18:45:48,967 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-05 18:45:51,989 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 18:45:51,990 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-05 18:45:52,984 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-05 18:45:56,919 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload
+2025-03-05 18:45:56,920 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-05 18:45:58,981 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 18:45:58,981 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 18:46:01,850 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 18:46:01,856 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 18:46:02,651 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 18:46:02,651 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 18:46:03,576 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 18:46:04,494 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 18:46:05,465 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 18:46:07,291 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 18:46:10,719 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, テナント名, Status
+2025-03-05 18:46:12,158 [1] INFO  Test.Form1 - 筛选完成，删除了 16 行数据
+2025-03-05 18:59:09,249 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-05 18:59:11,355 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 18:59:12,623 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 18:59:12,624 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 18:59:14,274 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 18:59:14,290 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 18:59:15,386 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 18:59:15,386 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 18:59:15,763 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 18:59:16,296 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 18:59:17,056 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 18:59:18,694 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 18:59:27,300 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, テナント名, Status
+2025-03-05 19:04:34,481 [1] INFO  Test.Form1 - 筛选完成，删除了 16 行数据
+2025-03-05 19:05:18,358 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 19:05:20,720 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 19:05:20,720 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 19:05:22,732 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 19:05:22,738 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 19:05:23,320 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 19:05:23,320 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 19:05:24,047 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 19:05:25,005 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 19:05:25,488 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 19:05:25,975 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 19:05:28,491 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, テナント名, Status
+2025-03-05 19:05:28,492 [1] INFO  Test.Form1 - 筛选完成，删除了 21 行数据
+2025-03-05 19:06:17,699 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 19:06:21,383 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 19:06:21,383 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 19:06:22,982 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 19:06:22,987 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 19:06:23,563 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 19:06:23,563 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 19:06:24,601 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 19:06:25,451 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 19:06:26,239 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 19:06:28,430 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 19:06:39,890 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, テナント名, Status
+2025-03-05 19:09:09,647 [1] INFO  Test.Form1 - 筛选完成，删除了 21 行数据
+2025-03-05 19:09:44,806 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 19:09:47,362 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 19:09:47,362 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 19:09:49,122 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 19:09:49,127 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 19:09:50,015 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 19:09:50,016 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 19:09:50,779 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 19:09:51,185 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 19:09:52,242 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 19:09:53,560 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 19:09:59,516 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, テナント名, Status
+2025-03-05 19:09:59,517 [1] INFO  Test.Form1 - 筛选完成，删除了 21 行数据
+2025-03-05 19:11:44,423 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 19:11:46,718 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 19:11:46,718 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 19:11:47,911 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 19:11:47,915 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 19:11:48,467 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 19:11:48,467 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 19:11:49,611 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 19:11:49,989 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 19:11:50,293 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 19:11:50,581 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 19:11:53,213 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, テナント名, Status
+2025-03-05 19:11:53,214 [1] INFO  Test.Form1 - 筛选完成，删除了 7 行数据
+2025-03-05 19:13:42,216 [1] INFO  Test.Form1 - 筛选完成，删除了 14 行数据
+2025-03-05 19:15:05,554 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 19:15:07,866 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 19:15:07,866 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 19:15:09,986 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 19:15:09,990 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 19:15:10,475 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 19:15:10,475 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 19:15:11,652 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 19:15:12,782 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 19:15:13,288 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 19:15:14,982 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 19:15:21,570 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, テナント名, Status
+2025-03-05 19:18:10,194 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-05 19:18:12,473 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 19:18:13,280 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 19:18:13,280 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 19:18:16,380 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 19:18:16,384 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 19:18:16,875 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 19:18:16,875 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 19:18:17,779 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 19:18:18,650 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 19:18:19,134 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 19:18:20,207 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 19:18:26,346 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, テナント名, Status
+2025-03-05 19:18:26,347 [1] INFO  Test.Form1 - 筛选完成，删除了 16 行数据
+2025-03-05 19:21:59,119 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 19:22:01,787 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 19:22:01,787 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 19:22:03,446 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 19:22:03,450 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 19:22:03,914 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 19:22:03,914 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 19:22:04,630 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 19:22:04,973 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 19:22:05,539 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 19:22:06,658 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 19:22:13,665 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, テナント名, Status
+2025-03-05 19:22:13,666 [1] INFO  Test.Form1 - 筛选完成，删除了 19 行数据
+2025-03-05 19:48:00,757 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 19:48:20,947 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 19:48:20,947 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 19:48:28,549 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 19:48:28,552 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 19:48:29,282 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 19:48:29,282 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 19:48:30,069 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 19:48:30,643 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 19:48:31,291 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 19:48:32,697 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 19:48:43,191 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, テナント名, Status
+2025-03-05 19:48:43,193 [1] INFO  Test.Form1 - 筛选完成，删除了 19 行数据
+2025-03-05 20:04:10,272 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-05 20:04:19,584 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 20:04:19,585 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-05 20:04:20,297 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-05 20:04:25,482 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 20:04:25,483 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-05 20:04:26,132 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-05 20:04:28,836 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 20:04:28,836 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-05 20:04:29,689 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-05 20:04:38,523 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:04:38,523 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-05 20:04:40,815 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-05 20:04:48,026 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload
+2025-03-05 20:04:48,026 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-05 20:05:06,547 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 20:05:06,547 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 20:05:11,858 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 20:05:11,871 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 20:05:14,290 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 20:05:14,290 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 20:05:15,691 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 20:05:17,704 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 20:05:19,146 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 20:05:20,673 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 20:05:29,833 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, テナント名, Status
+2025-03-05 20:05:29,840 [1] INFO  Test.Form1 - 筛选完成，删除了 19 行数据
+2025-03-05 20:05:44,075 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-05 20:05:45,812 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-05 20:06:13,028 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-05 20:06:24,608 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-05 20:08:20,656 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-05 20:08:20,838 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-05 20:08:23,844 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-05 20:12:27,591 [1] INFO  Test.SeleniumUtility - 已点击 'Billing and Cost Management' 链接
+2025-03-05 20:12:36,224 [1] INFO  Test.SeleniumUtility - 等待 '支払い' 链接可点击...
+2025-03-05 20:12:50,193 [1] INFO  Test.SeleniumUtility - 已点击 '支払い' 链接
+2025-03-05 20:12:55,081 [1] INFO  Test.SeleniumUtility - 等待 '取引' tab可点击...
+2025-03-05 20:13:00,455 [1] INFO  Test.SeleniumUtility - 已点击 '取引' tab
+2025-03-05 20:13:38,973 [1] INFO  Test.SeleniumUtility - 等待用户菜单可点击...
+2025-03-05 20:13:40,620 [1] INFO  Test.SeleniumUtility - 等待'ロールの切り替え'选项可点击...
+2025-03-05 20:14:00,584 [1] INFO  Test.SeleniumUtility - 输入账户ID...
+2025-03-05 20:14:07,353 [1] INFO  Test.SeleniumUtility - 输入IAM角色名...
+2025-03-05 20:14:10,309 [1] INFO  Test.SeleniumUtility - 点击'ロールの切り替え'按钮...
+2025-03-05 20:14:27,335 [1] INFO  Test.SeleniumUtility - 等待日期范围控件可点击...
+2025-03-05 20:14:29,319 [1] INFO  Test.SeleniumUtility - 已点击日期范围控件
+2025-03-05 20:14:34,610 [1] INFO  Test.SeleniumUtility - 定位日期输入框...
+2025-03-05 20:14:35,486 [1] INFO  Test.SeleniumUtility - 输入起始日期: 2024/02/04
+2025-03-05 20:14:39,165 [1] INFO  Test.SeleniumUtility - 输入结束日期: 2025/03/04
+2025-03-05 20:14:51,494 [1] INFO  Test.SeleniumUtility - 点击適用按钮...
+2025-03-05 20:14:53,046 [1] INFO  Test.SeleniumUtility - 已点击適用按钮
+2025-03-05 20:21:25,451 [1] INFO  Test.SeleniumUtility - 定位发票下载按钮...
+2025-03-05 20:21:30,733 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 2068236385
+2025-03-05 20:21:31,844 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:21:33,793 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_2068236385.pdf
+2025-03-05 20:21:44,453 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:30:27,925 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-05 20:30:33,996 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 20:30:33,998 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-05 20:30:34,680 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-05 20:30:36,795 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 20:30:36,795 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-05 20:30:37,672 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-05 20:30:40,181 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 20:30:40,181 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-05 20:30:41,241 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-05 20:30:43,585 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:30:43,585 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-05 20:30:44,742 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-05 20:30:48,951 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload
+2025-03-05 20:30:48,951 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-05 20:31:03,280 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 20:31:03,281 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 20:31:03,771 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 20:31:03,776 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 20:31:03,948 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 20:31:03,948 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 20:31:03,953 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 20:31:03,957 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 20:31:03,962 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 20:31:03,967 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 20:31:03,972 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, テナント名, Status
+2025-03-05 20:31:03,974 [1] INFO  Test.Form1 - 筛选完成，删除了 19 行数据
+2025-03-05 20:31:06,258 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-05 20:31:06,265 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-05 20:31:11,509 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-05 20:31:15,895 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-05 20:33:13,092 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-05 20:33:13,180 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-05 20:33:16,181 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-05 20:33:30,287 [1] INFO  Test.SeleniumUtility - 已点击 'Billing and Cost Management' 链接
+2025-03-05 20:33:33,305 [1] INFO  Test.SeleniumUtility - 等待 '支払い' 链接可点击...
+2025-03-05 20:33:47,456 [1] INFO  Test.SeleniumUtility - 已点击 '支払い' 链接
+2025-03-05 20:33:50,466 [1] INFO  Test.SeleniumUtility - 等待 '取引' tab可点击...
+2025-03-05 20:33:51,488 [1] INFO  Test.SeleniumUtility - 已点击 '取引' tab
+2025-03-05 20:33:51,488 [1] INFO  Test.SeleniumUtility - 等待用户菜单可点击...
+2025-03-05 20:33:51,624 [1] INFO  Test.SeleniumUtility - 等待'ロールの切り替え'选项可点击...
+2025-03-05 20:33:59,178 [1] INFO  Test.SeleniumUtility - 输入账户ID...
+2025-03-05 20:33:59,529 [1] INFO  Test.SeleniumUtility - 输入IAM角色名...
+2025-03-05 20:33:59,841 [1] INFO  Test.SeleniumUtility - 点击'ロールの切り替え'按钮...
+2025-03-05 20:34:02,897 [1] INFO  Test.SeleniumUtility - 等待日期范围控件可点击...
+2025-03-05 20:34:06,196 [1] INFO  Test.SeleniumUtility - 已点击日期范围控件
+2025-03-05 20:34:09,209 [1] INFO  Test.SeleniumUtility - 定位日期输入框...
+2025-03-05 20:34:09,257 [1] INFO  Test.SeleniumUtility - 输入起始日期: 2024/02/04
+2025-03-05 20:34:10,334 [1] INFO  Test.SeleniumUtility - 输入结束日期: 2025/03/04
+2025-03-05 20:34:10,708 [1] INFO  Test.SeleniumUtility - 点击適用按钮...
+2025-03-05 20:34:11,015 [1] INFO  Test.SeleniumUtility - 已点击適用按钮
+2025-03-05 20:34:14,056 [1] INFO  Test.SeleniumUtility - 定位发票下载按钮...
+2025-03-05 20:34:14,978 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 2068236385
+2025-03-05 20:34:15,005 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:34:20,153 [1] WARN  Test.SeleniumUtility - 文件下载超时
+2025-03-05 20:34:20,155 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:34:23,739 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:34:25,085 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 2030786873
+2025-03-05 20:34:25,134 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:36:12,350 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_2030786873.pdf
+2025-03-05 20:36:16,694 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:36:16,694 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:36:16,702 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:36:16,756 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1994404497
+2025-03-05 20:36:16,800 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:37:08,318 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1994404497.pdf
+2025-03-05 20:37:20,108 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:37:20,108 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:37:20,118 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:37:20,159 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1949882401
+2025-03-05 20:37:20,211 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:37:28,697 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1949882401.pdf
+2025-03-05 20:37:28,697 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:37:28,698 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:37:28,703 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:37:28,741 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1909209437
+2025-03-05 20:37:28,783 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:37:34,889 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1909209437.pdf
+2025-03-05 20:37:34,890 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:37:34,890 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:37:34,897 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:37:34,930 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1874162729
+2025-03-05 20:37:34,965 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:37:41,070 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1874162729.pdf
+2025-03-05 20:37:41,070 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:37:41,070 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:37:41,076 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:37:41,101 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1842041197
+2025-03-05 20:37:41,140 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:37:47,289 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1842041197.pdf
+2025-03-05 20:37:47,289 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:37:47,289 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:37:47,296 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:37:47,384 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1803686865
+2025-03-05 20:37:47,419 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:37:53,030 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1803686865.pdf
+2025-03-05 20:37:53,030 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:37:53,030 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:37:53,040 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:37:53,079 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1753065217
+2025-03-05 20:37:53,121 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:37:58,736 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1753065217.pdf
+2025-03-05 20:37:58,736 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:37:58,736 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:37:58,744 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:37:58,771 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1716738281
+2025-03-05 20:37:58,803 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:38:04,441 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1716738281.pdf
+2025-03-05 20:38:04,442 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:38:04,442 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:38:04,449 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:38:04,479 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1682793633
+2025-03-05 20:38:04,510 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:38:10,176 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1682793633.pdf
+2025-03-05 20:38:10,176 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:38:10,176 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:38:10,184 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:38:10,207 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1659550853
+2025-03-05 20:38:10,245 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:38:16,445 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1659550853.pdf
+2025-03-05 20:38:16,445 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:38:16,446 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:38:16,452 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:38:16,551 [1] INFO  Test.SeleniumUtility - 点击下一页按钮
+2025-03-05 20:38:19,657 [1] INFO  Test.SeleniumUtility - 定位发票下载按钮...
+2025-03-05 20:38:19,685 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1646441533
+2025-03-05 20:38:19,714 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:38:25,831 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1646441533.pdf
+2025-03-05 20:38:25,832 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:38:25,832 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:38:25,837 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:38:25,859 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1608473225
+2025-03-05 20:38:25,890 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:38:33,074 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1608473225.pdf
+2025-03-05 20:38:33,074 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:38:33,074 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:38:33,081 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:38:33,113 [1] INFO  Test.SeleniumUtility - 已到达最后一页
+2025-03-05 20:38:36,136 [1] INFO  Test.SeleniumUtility - 成功导航到账单下载页面
+2025-03-05 20:38:36,136 [1] INFO  Test.Form1 - 下载操作完成，准备关闭浏览器...
+2025-03-05 20:38:36,137 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-05 20:38:40,168 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-05 20:38:41,620 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 20:47:17,930 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-05 20:47:39,260 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 20:47:39,264 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-05 20:47:40,012 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-05 20:47:42,864 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 20:47:42,864 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-05 20:47:44,983 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-05 20:47:46,570 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 20:47:46,570 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-05 20:47:47,095 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-05 20:47:48,539 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 20:47:48,539 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-05 20:47:49,191 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-05 20:47:52,097 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:47:52,097 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-05 20:47:52,778 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-05 20:47:57,489 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload
+2025-03-05 20:47:57,489 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-05 20:48:06,267 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 20:48:06,267 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 20:48:06,971 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 20:48:06,977 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 20:48:07,291 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 20:48:07,291 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 20:48:07,345 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 20:48:07,351 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 20:48:07,357 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 20:48:07,367 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 20:48:07,378 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, テナント名, Status
+2025-03-05 20:48:07,381 [1] INFO  Test.Form1 - 筛选完成，删除了 19 行数据
+2025-03-05 20:48:11,338 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-05 20:48:11,341 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-05 20:48:21,874 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-05 20:48:30,325 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-05 20:49:52,625 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-05 20:49:52,795 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-05 20:49:55,807 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-05 20:50:04,416 [1] INFO  Test.SeleniumUtility - 已点击 'Billing and Cost Management' 链接
+2025-03-05 20:50:07,430 [1] INFO  Test.SeleniumUtility - 等待 '支払い' 链接可点击...
+2025-03-05 20:50:21,793 [1] INFO  Test.SeleniumUtility - 已点击 '支払い' 链接
+2025-03-05 20:50:24,806 [1] INFO  Test.SeleniumUtility - 等待 '取引' tab可点击...
+2025-03-05 20:50:25,183 [1] INFO  Test.SeleniumUtility - 已点击 '取引' tab
+2025-03-05 20:50:25,184 [1] INFO  Test.SeleniumUtility - 等待用户菜单可点击...
+2025-03-05 20:50:25,294 [1] INFO  Test.SeleniumUtility - 等待'ロールの切り替え'选项可点击...
+2025-03-05 20:50:32,822 [1] INFO  Test.SeleniumUtility - 输入账户ID...
+2025-03-05 20:50:33,136 [1] INFO  Test.SeleniumUtility - 输入IAM角色名...
+2025-03-05 20:50:33,442 [1] INFO  Test.SeleniumUtility - 点击'ロールの切り替え'按钮...
+2025-03-05 20:50:36,511 [1] INFO  Test.SeleniumUtility - 等待日期范围控件可点击...
+2025-03-05 20:50:40,906 [1] INFO  Test.SeleniumUtility - 已点击日期范围控件
+2025-03-05 20:50:43,917 [1] INFO  Test.SeleniumUtility - 定位日期输入框...
+2025-03-05 20:50:43,966 [1] INFO  Test.SeleniumUtility - 输入起始日期: 2024/02/04
+2025-03-05 20:50:44,462 [1] INFO  Test.SeleniumUtility - 输入结束日期: 2025/03/04
+2025-03-05 20:50:44,791 [1] INFO  Test.SeleniumUtility - 点击適用按钮...
+2025-03-05 20:50:44,981 [1] INFO  Test.SeleniumUtility - 已点击適用按钮
+2025-03-05 20:50:47,989 [1] INFO  Test.SeleniumUtility - 定位发票下载按钮...
+2025-03-05 20:50:48,106 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 2068236385
+2025-03-05 20:50:48,136 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:50:54,303 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_2068236385.pdf
+2025-03-05 20:50:54,303 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:50:54,306 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:51:32,415 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:51:32,584 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 2030786873
+2025-03-05 20:51:32,643 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:51:38,810 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_2030786873.pdf
+2025-03-05 20:51:38,810 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:51:38,810 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:51:38,816 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:51:38,858 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1994404497
+2025-03-05 20:51:38,891 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:51:44,499 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1994404497.pdf
+2025-03-05 20:51:44,500 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:51:44,500 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:51:44,505 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:51:44,529 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1949882401
+2025-03-05 20:51:44,582 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:51:50,798 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1949882401.pdf
+2025-03-05 20:51:50,799 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:51:50,799 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:51:50,806 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:51:50,881 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1909209437
+2025-03-05 20:51:50,920 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:51:57,051 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1909209437.pdf
+2025-03-05 20:51:57,051 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:51:57,051 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:51:57,057 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:51:57,081 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1874162729
+2025-03-05 20:51:57,113 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:52:03,290 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1874162729.pdf
+2025-03-05 20:52:03,291 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:52:03,291 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:52:03,297 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:52:03,320 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1842041197
+2025-03-05 20:52:03,352 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:52:09,522 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1842041197.pdf
+2025-03-05 20:52:09,522 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:52:09,522 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:52:09,528 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:52:09,555 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1803686865
+2025-03-05 20:52:09,589 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:52:15,225 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1803686865.pdf
+2025-03-05 20:52:15,226 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:52:15,226 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:52:15,233 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:52:15,259 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1753065217
+2025-03-05 20:52:15,292 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:52:20,895 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1753065217.pdf
+2025-03-05 20:52:20,896 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:52:20,896 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:52:20,902 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:52:20,925 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1716738281
+2025-03-05 20:52:20,958 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:52:27,209 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1716738281.pdf
+2025-03-05 20:52:27,209 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:52:27,209 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:52:27,218 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:52:27,244 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1682793633
+2025-03-05 20:52:27,284 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:52:32,866 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1682793633.pdf
+2025-03-05 20:52:32,866 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:52:32,866 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:52:32,872 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:52:32,895 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1659550853
+2025-03-05 20:52:32,926 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:52:39,015 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1659550853.pdf
+2025-03-05 20:52:39,015 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:52:39,015 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:52:39,029 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:52:39,103 [1] INFO  Test.SeleniumUtility - 点击下一页按钮
+2025-03-05 20:52:42,217 [1] INFO  Test.SeleniumUtility - 定位发票下载按钮...
+2025-03-05 20:52:42,245 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1646441533
+2025-03-05 20:52:42,281 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:52:47,865 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1646441533.pdf
+2025-03-05 20:52:47,865 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:52:47,865 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:52:47,871 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:52:47,894 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1608473225
+2025-03-05 20:52:47,926 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 20:52:54,044 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1608473225.pdf
+2025-03-05 20:52:54,044 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 20:52:54,044 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 20:52:54,056 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 20:52:54,103 [1] INFO  Test.SeleniumUtility - 已到达最后一页
+2025-03-05 20:52:57,588 [1] INFO  Test.SeleniumUtility - 成功导航到账单下载页面
+2025-03-05 20:52:57,588 [1] INFO  Test.Form1 - 下载操作完成，准备关闭浏览器...
+2025-03-05 20:52:57,588 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-05 20:53:01,101 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-05 20:53:03,428 [1] INFO  Test.Form1 - Download処理が正常に完了しました。
+2025-03-05 20:59:58,546 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理を開始します。
+2025-03-05 21:00:06,233 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 21:00:06,236 [1] INFO  Test.Form1 - AWSアカウント一覧ファイル選択処理が完了しました。
+2025-03-05 21:00:07,212 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理を開始します。
+2025-03-05 21:00:09,860 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 21:00:09,860 [1] INFO  Test.Form1 - 対象外アカウント設定ファイル選択処理が完了しました。
+2025-03-05 21:00:10,434 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理を開始します。
+2025-03-05 21:00:13,792 [1] INFO  Test.Form1 - ファイル振分設定ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 21:00:13,792 [1] INFO  Test.Form1 - ファイル振分設定ファイル選択処理が完了しました。
+2025-03-05 21:00:14,403 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理を開始します。
+2025-03-05 21:00:20,342 [1] INFO  Test.Form1 - ダウンロード履歴ファイルを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 21:00:20,342 [1] INFO  Test.Form1 - ダウンロード履歴ファイル選択処理が完了しました。
+2025-03-05 21:00:21,112 [1] INFO  Test.Form1 - 請求書格納パス選択処理を開始します。
+2025-03-05 21:00:25,051 [1] INFO  Test.Form1 - 請求書格納パスを選択しました：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload
+2025-03-05 21:00:25,052 [1] INFO  Test.Form1 - 請求書格納パス選択処理が完了しました。
+2025-03-05 21:00:35,603 [1] INFO  Test.Form1 - Download処理を開始します。
+2025-03-05 21:00:35,603 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\対象外設定.xlsx
+2025-03-05 21:00:40,165 [1] INFO  Test.Form1 - 対象外アカウント設定ファイルの読み込みが完了しました。行数：6
+2025-03-05 21:00:40,186 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\AWSアカウント一覧.xlsx
+2025-03-05 21:00:40,756 [1] INFO  Test.Form1 - AWSアカウント一覧ファイルの読み込みが完了しました。テーブル数：3
+2025-03-05 21:00:40,756 [1] INFO  Test.Form1 - ファイル振分設定ファイルの読み込みを開始します：D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\テナント名変換定義ファイル.xlsx
+2025-03-05 21:00:40,782 [1] INFO  Test.Form1 - パス定義シートの読み込みが完了しました。行数：2
+2025-03-05 21:00:40,798 [1] INFO  Test.Form1 - リセラー対象シートの読み込みが完了しました。行数：2
+2025-03-05 21:00:40,818 [1] INFO  Test.Form1 - 会員名義変換シートの読み込みが完了しました。行数：3
+2025-03-05 21:00:40,838 [1] INFO  Test.Form1 - テナント名変換シートの読み込みが完了しました。行数：21
+2025-03-05 21:00:40,865 [1] INFO  Test.Form1 - 开始根据対象外アカウント设定进行筛选，比较的列：IAMエイリアス, テナント名, Status
+2025-03-05 21:00:40,868 [1] INFO  Test.Form1 - 筛选完成，删除了 19 行数据
+2025-03-05 21:00:40,937 [1] INFO  Test.Form1 - 启动AWS控制台浏览器...
+2025-03-05 21:00:41,078 [1] INFO  Test.SeleniumUtility - 开始启动Edge浏览器...
+2025-03-05 21:01:09,366 [1] INFO  Test.SeleniumUtility - 正在访问AWS控制台：https://adtec-int-cb-1.signin.aws.amazon.com/console
+2025-03-05 21:01:14,694 [1] INFO  Test.SeleniumUtility - Edge浏览器启动成功
+2025-03-05 21:02:38,539 [1] INFO  Test.Form1 - 用户确认已完成登录，继续执行后续操作
+2025-03-05 21:02:38,675 [1] INFO  Test.SeleniumUtility - 开始导航到账单下载页面...
+2025-03-05 21:02:41,678 [1] INFO  Test.SeleniumUtility - 等待 'Billing and Cost Management' 链接可点击...
+2025-03-05 21:02:51,578 [1] INFO  Test.SeleniumUtility - 已点击 'Billing and Cost Management' 链接
+2025-03-05 21:02:54,589 [1] INFO  Test.SeleniumUtility - 等待 '支払い' 链接可点击...
+2025-03-05 21:03:11,931 [1] INFO  Test.SeleniumUtility - 已点击 '支払い' 链接
+2025-03-05 21:03:14,943 [1] INFO  Test.SeleniumUtility - 等待 '取引' tab可点击...
+2025-03-05 21:03:15,532 [1] INFO  Test.SeleniumUtility - 已点击 '取引' tab
+2025-03-05 21:03:15,532 [1] INFO  Test.SeleniumUtility - 等待用户菜单可点击...
+2025-03-05 21:03:15,688 [1] INFO  Test.SeleniumUtility - 等待'ロールの切り替え'选项可点击...
+2025-03-05 21:03:23,155 [1] INFO  Test.SeleniumUtility - 输入账户ID...
+2025-03-05 21:03:23,486 [1] INFO  Test.SeleniumUtility - 输入IAM角色名...
+2025-03-05 21:03:23,817 [1] INFO  Test.SeleniumUtility - 点击'ロールの切り替え'按钮...
+2025-03-05 21:03:26,867 [1] INFO  Test.SeleniumUtility - 等待日期范围控件可点击...
+2025-03-05 21:03:33,850 [1] INFO  Test.SeleniumUtility - 已点击日期范围控件
+2025-03-05 21:03:36,854 [1] INFO  Test.SeleniumUtility - 定位日期输入框...
+2025-03-05 21:03:36,875 [1] INFO  Test.SeleniumUtility - 输入起始日期: 2024/02/04
+2025-03-05 21:03:37,429 [1] INFO  Test.SeleniumUtility - 输入结束日期: 2025/03/04
+2025-03-05 21:03:37,783 [1] INFO  Test.SeleniumUtility - 点击適用按钮...
+2025-03-05 21:03:37,940 [1] INFO  Test.SeleniumUtility - 已点击適用按钮
+2025-03-05 21:03:40,949 [1] INFO  Test.SeleniumUtility - 定位发票下载按钮...
+2025-03-05 21:03:41,056 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 2068236385
+2025-03-05 21:03:41,098 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 21:03:47,370 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_2068236385.pdf
+2025-03-05 21:03:47,371 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 21:03:47,374 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 21:03:47,750 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 21:03:47,956 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 2030786873
+2025-03-05 21:03:47,987 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 21:03:54,115 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_2030786873.pdf
+2025-03-05 21:03:54,116 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 21:03:54,116 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 21:03:54,125 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 21:03:54,148 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1994404497
+2025-03-05 21:03:54,181 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 21:04:00,315 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1994404497.pdf
+2025-03-05 21:04:00,315 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 21:04:00,315 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 21:04:00,323 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 21:04:00,394 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1949882401
+2025-03-05 21:04:00,425 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 21:04:06,028 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1949882401.pdf
+2025-03-05 21:04:06,028 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 21:04:06,028 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 21:04:06,035 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 21:04:06,094 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1909209437
+2025-03-05 21:04:06,297 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 21:04:12,468 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1909209437.pdf
+2025-03-05 21:04:12,469 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 21:04:12,469 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 21:04:12,477 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 21:04:12,502 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1874162729
+2025-03-05 21:04:12,532 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 21:04:18,196 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1874162729.pdf
+2025-03-05 21:04:18,196 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 21:04:18,197 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 21:04:18,204 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 21:04:18,230 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1842041197
+2025-03-05 21:04:18,268 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 21:04:24,413 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1842041197.pdf
+2025-03-05 21:04:24,414 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 21:04:24,414 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 21:04:24,426 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 21:04:24,484 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1803686865
+2025-03-05 21:04:24,532 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 21:04:30,187 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1803686865.pdf
+2025-03-05 21:04:30,188 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 21:04:30,188 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 21:04:30,196 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 21:04:30,219 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1753065217
+2025-03-05 21:04:30,303 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 21:04:35,931 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1753065217.pdf
+2025-03-05 21:04:35,931 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 21:04:35,931 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 21:04:35,938 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 21:04:35,962 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1716738281
+2025-03-05 21:04:35,993 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 21:04:41,590 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1716738281.pdf
+2025-03-05 21:04:41,591 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 21:04:41,591 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 21:04:41,599 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 21:04:41,626 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1682793633
+2025-03-05 21:04:41,657 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 21:04:48,836 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1682793633.pdf
+2025-03-05 21:04:48,837 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 21:04:48,837 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 21:04:48,845 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 21:04:48,869 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1659550853
+2025-03-05 21:04:48,902 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 21:04:55,072 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1659550853.pdf
+2025-03-05 21:04:55,072 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 21:04:55,072 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 21:04:55,078 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 21:04:55,118 [1] INFO  Test.SeleniumUtility - 点击下一页按钮
+2025-03-05 21:04:58,254 [1] INFO  Test.SeleniumUtility - 定位发票下载按钮...
+2025-03-05 21:04:58,282 [1] INFO  Test.SeleniumUtility - 点击下载按钮: 1646441533
+2025-03-05 21:04:58,321 [1] INFO  Test.SeleniumUtility - 等待文件下载完成...
+2025-03-05 21:05:04,452 [1] INFO  Test.SeleniumUtility - 找到匹配的PDF文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\CursorDownload\Invoice_1646441533.pdf
+2025-03-05 21:05:04,453 [1] INFO  Test.SeleniumUtility - 文件下载完成
+2025-03-05 21:05:04,453 [1] INFO  Test.ExcelUtility - 写入下载历史到文件: D:\NRIB_成果物\4.Invoiceダウンロード\20220711\業務資料\download\download.xlsx
+2025-03-05 21:05:04,461 [1] INFO  Test.ExcelUtility - 下载历史记录已写入
+2025-03-05 21:05:04,496 [1] INFO  Test.SeleniumUtility - 已到达最后一页
+2025-03-05 21:05:04,496 [1] INFO  Test.SeleniumUtility - 成功导航到账单下载页面
+2025-03-05 21:05:04,497 [1] INFO  Test.Form1 - 下载操作完成，准备关闭浏览器...
+2025-03-05 21:05:04,497 [1] INFO  Test.SeleniumUtility - 正在关闭Edge浏览器...
+2025-03-05 21:05:08,500 [1] INFO  Test.SeleniumUtility - Edge浏览器已关闭
+2025-03-05 21:05:09,659 [1] INFO  Test.Form1 - Download処理が正常に完了しました。

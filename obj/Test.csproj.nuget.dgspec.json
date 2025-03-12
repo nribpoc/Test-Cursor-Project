@@ -14,7 +14,7 @@
         "outputPath": "C:\\wqw\\Source\\Framework_Main\\Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\wqw\\Source\\Framework_Main\\Test\\NuGet.Config"
+          "c:\\wqw\\Source\\Framework_Main\\Test\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0-windows"

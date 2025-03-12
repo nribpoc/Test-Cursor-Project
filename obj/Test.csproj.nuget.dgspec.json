@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\wqw\\Source\\Framework_Main\\Test\\Test.csproj": {}
+    "C:\\wqw\\Source\\Framework_Sub_Main\\Test\\Test.csproj": {}
   },
   "projects": {
-    "C:\\wqw\\Source\\Framework_Main\\Test\\Test.csproj": {
+    "C:\\wqw\\Source\\Framework_Sub_Main\\Test\\Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\wqw\\Source\\Framework_Main\\Test\\Test.csproj",
+        "projectUniqueName": "C:\\wqw\\Source\\Framework_Sub_Main\\Test\\Test.csproj",
         "projectName": "Test",
-        "projectPath": "C:\\wqw\\Source\\Framework_Main\\Test\\Test.csproj",
+        "projectPath": "C:\\wqw\\Source\\Framework_Sub_Main\\Test\\Test.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\wqw\\Source\\Framework_Main\\Test\\obj\\",
+        "outputPath": "C:\\wqw\\Source\\Framework_Sub_Main\\Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\wqw\\Source\\Framework_Main\\Test\\NuGet.Config"
+          "c:\\wqw\\Source\\Framework_Sub_Main\\Test\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0-windows"

@@ -26,7 +26,7 @@ namespace Test
             InitializeComponent();
             
             // 设置窗体标题
-            this.Text = "INVOICE DOWNLOAD123456";
+            this.Text = "INVOICE DOWNLOAD456";
             
             // 设置窗体启动位置为屏幕中央
             this.StartPosition = FormStartPosition.CenterScreen;
